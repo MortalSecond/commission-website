@@ -1,0 +1,32 @@
+{
+    "home":{
+        "navbar":{
+            "options":{
+                "one": "What I Do",
+                "two": "Portfolio",
+                "three": "Demos",
+                "four": "Coverage",
+                "five": "IT Work",
+                "six": "Process",
+                "seven": "Pricing"
+            }
+        },
+        "hero":{
+            "status": "Available for Commissions",
+            "title":{
+                "first-line": "Hey, I'm Diego.",
+                "second-line": "I build things",
+                "third-line": "that work."
+            },
+            "subtitle": "Websites, web apps, IT stuff, and network headaches. Based in Otumba, Estado de Mexico. I also speak English, if that helps.",
+            "queue":{
+                "current-queue": "Current queue:",
+                "slots-taken": "slots taken."
+            },
+            "buttons":{
+                "main": "Commission me",
+                "other": "See my work"
+            }
+        }
+    }
+}

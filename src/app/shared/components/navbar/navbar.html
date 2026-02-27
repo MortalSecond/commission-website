@@ -4,14 +4,15 @@
     </div>
 
     <div class="navbar__links">
-        <a href="#" class="links__option">What I Do</a>
-        <a href="#" class="links__option">Porfolio</a>
-        <a href="#" class="links__option">Demos</a>
-        <a href="#" class="links__option">Coverage</a>
-        <a href="#" class="links__option">IT Work</a>
-        <a href="#" class="links__option">Process</a>
-        <a href="#" class="links__option">Pricing</a>
+        <a href="#" class="links__option">{{ 'home.navbar.options.one' | translate }}</a>
+        <a href="#" class="links__option">{{ 'home.navbar.options.two' | translate }}</a>
+        <a href="#" class="links__option">{{ 'home.navbar.options.three' | translate }}</a>
+        <a href="#" class="links__option">{{ 'home.navbar.options.four' | translate }}</a>
+        <a href="#" class="links__option">{{ 'home.navbar.options.five' | translate }}</a>
+        <a href="#" class="links__option">{{ 'home.navbar.options.six' | translate }}</a>
+        <a href="#" class="links__option">{{ 'home.navbar.options.seven' | translate }}</a>
     </div>
     
-    <button class="language">EN / ES</button>
+    <button class="language"
+    (click)="switchLang()">EN / ES</button>
 </nav>

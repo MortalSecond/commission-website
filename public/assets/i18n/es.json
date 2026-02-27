@@ -1,0 +1,32 @@
+{
+    "home":{
+        "navbar":{
+            "options":{
+                "one": "Lo Que Hago",
+                "two": "Portafolio",
+                "three": "Demos",
+                "four": "Covertura",
+                "five": "TICS",
+                "six": "Proceso",
+                "seven": "Precios"
+            }
+        },
+        "hero":{
+            "status": "Disponible para comisiónes",
+            "title":{
+                "first-line": "Hey, soy Diego.",
+                "second-line": "Construyo cosas",
+                "third-line": "que funcionan."
+            },
+            "subtitle": "Websites, web apps, cosas de TICS, and problemas de conexion. Ubicado en Otumba, Estado de Mexico. Tambien hablo Ingles, si es que ayuda.",
+            "queue":{
+                "current-queue": "Cola actual:",
+                "slots-taken": "vacantes ocupadas."
+            },
+            "buttons":{
+                "main": "Haz una comisión",
+                "other": "Vé mi trabajo"
+            }
+        }
+    }
+}
