@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: solid 2px var(--blueLight);
+    padding: 1rem 3rem;
+}
+
+.navbar__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.links__option{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--inkMuted);
+
+    transition: color 0.2s;
+}
+
+.links__option:hover{
+    color: var(--blue);
+}
+
+.logo{
+    margin-right: auto;
+
+    font-family: var(--textFont);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--blueDeep);
+}
+
+.logo b{
+    color: var(--blueBright);
+}
+
+.language{
+    margin-left: auto;
+
+    padding: 0.8rem 2rem;
+    border-color: var(--blueDeep);
+    background-color: var(--blueDeep);
+    
+    color: white;
+}

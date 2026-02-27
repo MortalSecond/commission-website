@@ -1,0 +1,62 @@
+/* Hero */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    padding: 4rem 30rem;
+
+    text-align: center;
+}
+
+.status-dot{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: var(--green);
+}
+
+.hero__queue-pill{
+    font-weight: 800;
+}
+
+.queue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.queue__slot{
+    border: solid 2px var(--blueLight);
+    border-radius: 0.3rem;
+    width: 1.3rem;
+    aspect-ratio: 1/1;
+}
+
+.queue__slot--filled{
+    border-color: var(--blueDeep);
+    background-color: var(--blueDeep);
+}
+
+.hero__buttons{
+    display: flex;
+    gap: 2rem;
+}
+
+.buttons__button{
+    padding: 1.5rem 5rem;
+    border-radius: 8rem;
+
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.buttons__button--main{
+    border-color: var(--blueDeep);
+    background-color: var(--blueDeep);
+    color: white;
+}

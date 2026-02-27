@@ -2,6 +2,7 @@
 @import 'modern-normalize/modern-normalize.css';
 
 /* Set Rem Sizing to 10px */
+
 html{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -9,4 +10,81 @@ html{
 
 *, *:after, *:before{
     box-sizing: inherit;
+}
+
+:root{
+    --textFont: 'Nunito', sans-serif;
+    --titlesFont: 'Instrument Serif', Georgia, serif;
+
+    --blue: #3b82f6;
+    --blueBright: #2563eb;
+    --blueDeep: #1a3a5c;
+    --blueLight: #bfdbfe;
+    --inkMuted: #4a5568;
+    --green: #10b981;
+    --cream: #fafaf7;
+}
+
+/* Global Tag Overrides */
+
+body{
+    font-family: var(--textFont);
+
+    background-color: var(--cream);
+}
+
+button{
+    cursor: pointer;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+h1{
+    font-family: var(--titlesFont);
+    font-size: 8rem;
+    line-height: 8rem;
+    color: var(--blueDeep);
+}
+
+h1 em{
+    color: var(--blue);
+}
+
+h3{
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--inkMuted);
+}
+
+a{
+    text-decoration: none;
+    color: var(--blueDeep);
+}
+
+/* Utility Classes */
+
+button,
+.pill{
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    background-color: var(--cream);
+    padding: 1rem 2rem;
+    width: fit-content;
+    border: solid 2px var(--blueLight);
+    border-radius: 2rem;
+}
+
+.pill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    font-size: 1.4rem;
+
+    background-color: white;
 }
