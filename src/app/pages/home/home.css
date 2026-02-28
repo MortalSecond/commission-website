@@ -1,6 +1,8 @@
 /* Hero */
 
 .hero{
+    margin-top: 1.5rem; /* The navbar kinda gets in the way, so this gives some breathing room */
+
     display: flex;
     flex-direction: column;
     align-items: center;
