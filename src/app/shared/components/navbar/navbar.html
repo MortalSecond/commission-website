@@ -12,7 +12,9 @@
         <a href="#" class="links__option">{{ 'home.navbar.options.six' | translate }}</a>
         <a href="#" class="links__option">{{ 'home.navbar.options.seven' | translate }}</a>
     </div>
-    
-    <button class="language"
-    (click)="switchLang()">EN / ES</button>
+
+    <div class="language" (click)="switchLang()">
+        <span class="language__left" [class.language--selected]="!isLangSpanish()">EN</span>
+        <span class="language__right" [class.language--selected]="isLangSpanish()">ES</span>
+    </div>
 </nav>

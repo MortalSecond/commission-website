@@ -40,11 +40,44 @@ nav{
 }
 
 .language{
+    display: flex;
+    gap: 0.2rem;
+
     margin-left: auto;
 
-    padding: 0.8rem 2rem;
-    border-color: var(--blueDeep);
-    background-color: var(--blueDeep);
-    
+    background-color: rgb(5, 5, 41);
+    border: solid rgb(5, 5, 41);
+    border-width: 0 2px 3px 2px;
+    border-radius: 2rem;
+
+    cursor: pointer;
+}
+
+.language__left,
+.language__right{
+    font-size: 1.3rem;
+    font-weight: 800;
     color: white;
+
+    border: solid 2px var(--blueDeep);
+    transform: translateY(-2px);
+    padding: 0.3rem 0.8rem;
+    background-color: var(--blueDeep);
+
+    transition: 0.2s;
+}
+
+.language__left{
+    border-radius: 2rem 0 0 2rem;
+}
+
+.language__right{
+    border-radius: 0 2rem 2rem 0;
+}
+
+.language--selected{
+    border-top: solid rgb(5, 5, 41);
+    border-width: 1px 0 0 0;
+    background-color: var(--blue);
+    transform: translateY(0);
 }

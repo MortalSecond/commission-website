@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -11,11 +11,18 @@ export class Navbar {
   // Services
   private readonly translateService = inject(TranslateService);
 
+  // Signals
+  isLangSpanish = signal(this.translateService.getCurrentLang() == "es");
+
   // Functional Methods
   switchLang(){
-    if(this.translateService.getCurrentLang() == "es")
+    if(this.isLangSpanish()){
       this.translateService.use('en');
-    else
+      this.isLangSpanish.set(false);
+    }
+    else{
       this.translateService.use('es');
+      this.isLangSpanish.set(true);
+    }
   }
 }
