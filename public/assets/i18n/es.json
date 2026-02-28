@@ -27,6 +27,44 @@
                 "main": "Haz una comisión",
                 "other": "Vé mi trabajo"
             }
+        },
+        "services":{
+            "eyebrow": "Lo Que Hago",
+            "title": "Que puedo construirte",
+            "subtitle-one": "No solo soy desarrollador, tambien he hecho cosas desde cables de fibra optica a construccion de aplicaciones full-stack desplegadas en la nube. Esto es con lo que te puedo ayudar.",
+            "subtitle-two": "Mantengo una cola de proyectos a maximo de 3 a la vez, para que pueda enfocarme en tu proyecto como se debe.",
+            "cards": {
+                "one": {
+                    "title": "Aplicación web full-stack",
+                    "description": "¿Necesitas una app completa? ¿Logins, panel de administrador, pedidos, lo que sea? La construyo de backend a frontend. Angular + ASP.NET, desplegada y todo. Sin plantillas, hecha específicamente para ti.",
+                    "pill": "~20 Días"
+                },
+                "two": {
+                    "title": "Sitio web solo frontend",
+                    "description": "Landing page, portafolio, sitio de negocio. Sin backend. Se ve bien, carga rápido, funciona en móvil. Listo en aproximadamente una semana.",
+                    "pill": "~7 Días"
+                },
+                "three": {
+                    "title": "Redes y TICS",
+                    "description": "¿Terminación de fibra óptica, ponchado de cables UTP, configuración de routers, diagnóstico de red? ¿Mejoras de partes de PC, actualizaciones, o armado de equipo desde cero? He hecho trabajo de campo a nivel ISP, ningún problema es demasiado técnico.",
+                    "pill": "Solo región de Otumba"
+                },
+                "four": {
+                    "title": "Aplicación de escritorio (Windows)",
+                    "description": "¿Necesitas una app de Windows que funcione sin internet, hable con hardware, o haga algo que una página web no puede? Te tengo cubierto. Trabajo con WPF/.NET, arquitectura MVVM, y disfruto resolver problemas raros y específicos.",
+                    "pill": "Variable"
+                },
+                "five": {
+                    "title": "Traducción / localización bilingüe (EN/ES)",
+                    "description": "Español ↔ Inglés. Tu sitio web, strings de app, documentos o correos. Español nativo, inglés fluido. Puedo traducir documentos, sitios web, o funcionar como punto de contacto bilingüe. Contenido técnico y general bienvenido.",
+                    "pill": "Entrega Rápida"
+                },
+                "six": {
+                    "title": "Mantenimiento y correcciones",
+                    "description": "¿Tienes un sitio roto, lento u obsoleto? ¿Necesitas una nueva función para un sitio existente? Mándamelo. Correcciones únicas o mantenimiento continuo. No desaparezco después de entregar.",
+                    "pill": "Según se necesite"
+                }
+            }
         }
     }
 }

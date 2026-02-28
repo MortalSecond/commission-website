@@ -15,14 +15,22 @@ html{
 :root{
     --textFont: 'Nunito', sans-serif;
     --titlesFont: 'Instrument Serif', Georgia, serif;
+    --smallTitlesFont: 'Syne', sans-serif;
 
     --blue: #3b82f6;
-    --blueBright: #2563eb;
     --blueDeep: #1a3a5c;
+    --blueBright: #2563eb;
     --blueLight: #bfdbfe;
-    --inkMuted: #4a5568;
+    --blueFaint: #eff6ff;
     --green: #10b981;
+    --greenDark: #059669;
+    --greenFaint: #d1fae5;
     --cream: #fafaf7;
+    --inkMuted: #4a5568;
+
+    --toBlue: invert(40%) sepia(56%) saturate(1959%) hue-rotate(202deg) brightness(99%) contrast(94%);
+    --toBrightBlue: invert(44%) sepia(78%) saturate(6405%) hue-rotate(217deg) brightness(95%) contrast(94%);
+    --toDarkGreen: invert(33%) sepia(84%) saturate(1418%) hue-rotate(137deg) brightness(94%) contrast(96%);
 }
 
 /* Global Tag Overrides */
@@ -52,6 +60,13 @@ h1 em{
     color: var(--blue);
 }
 
+h2{
+    font-size: 6rem;
+    font-family: var(--titlesFont);
+    letter-spacing: 0.1rem;
+    color: var(--blueDeep);
+}
+
 h3{
     font-size: 1.9rem;
     font-weight: 500;
@@ -59,9 +74,22 @@ h3{
     color: var(--inkMuted);
 }
 
+p{
+    margin: 0;
+    font-size: 1.7rem;
+    color: var(--inkMuted);
+}
+
 a{
     text-decoration: none;
     color: var(--blueDeep);
+}
+
+hr{
+    width: 90%;
+    height: 0.2rem;
+    background-color: var(--blueLight);
+    border: none;
 }
 
 /* Utility Classes */
@@ -87,4 +115,34 @@ button,
     font-size: 1.4rem;
 
     background-color: white;
+}
+
+.eyebrow{
+    display: inline-flex;
+    align-items: center;
+
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: var(--blue);
+}
+
+.eyebrow::before{
+    display: inline-block;
+    margin-right: 0.7rem;
+
+    content: '';
+    width: 1.6rem;
+    height: 0.2rem;
+    background-color: var(--blueBright);
+}
+
+.rounded-box{
+    border: solid 1px var(--blueLight);
+    border-radius: 2rem;
+}
+
+.rounded-box:hover{
+    border-color: var(--blue);
 }

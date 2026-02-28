@@ -27,6 +27,44 @@
                 "main": "Commission me",
                 "other": "See my work"
             }
+        },
+        "services":{
+            "eyebrow": "What I Do",
+            "title": "What can i build for you",
+            "subtitle-one": "I'm not just a developer, i've done everything from fiber optic cables to building full-stack apps deployed on the cloud. Here's what i can actually help you with.",
+            "subtitle-two": "I keep my queue to 3 projects so i can actually focus on yours, no assembly line stuff.",
+            "cards":{
+                "one":{
+                    "title": "Full-stack web application",
+                    "description": "Need a complete app? User logins, an admin panel, orders, whatever? I'll build it backend and frontend. Angular + ASP.NET, deployed and everything. No templates, built for you specifically.",
+                    "pill": "~20 Days"
+                },
+                "two":{
+                    "title": "Frontend-only website",
+                    "description": "Landing page, portfolio, business site. No backend needed. Looks great, loads fast, works on mobile. Done in about a week.",
+                    "pill": "~7 Days"
+                },
+                "three":{
+                    "title": "Network & IT",
+                    "description": "Fiber optic termination, UTP crimping, router config, troubleshooting? PC upgrades, updates, or custom rig builds? I've done ISP-level field work, no problem is too deep in the weeds.",
+                    "pill": "Otumba region only"
+                },
+                "four":{
+                    "title": "Desktop application (Windows)",
+                    "description": "Windows app that needs to work offline, talk to hardware, or do something a website can't? I've got you. I work with WPF/.NET, MVVM architecture, and i enjoy solving weird, specific problems.",
+                    "pill": "Varies"
+                },
+                "five":{
+                    "title": "Bilingual translation / localization (EN/ES)",
+                    "description": "Spanish ↔ English. Your website, app strings, documents, or emails. Native Spanish, fluent English. I can translate documents, websites, or act as a bilingual point of contact. Technical and general content welcome.",
+                    "pill": "Quick Turnaround"
+                },
+                "six":{
+                    "title": "Maintenance & fixes",
+                    "description": "Got a site that's broken, slow, or outdated? Need a new feature for a pre-existing website? Send it my way. One-off fixes or ongoing maintenance. I don't ghost clients after delivery.",
+                    "pill": "As Needed"
+                }
+            }
         }
     }
 }

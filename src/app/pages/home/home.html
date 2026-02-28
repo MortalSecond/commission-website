@@ -1,5 +1,6 @@
 <app-navbar></app-navbar>
 
+<!-- Hero -->
 <section class="hero">
     <div class="pill">
         <span class="status-dot"></span>
@@ -33,5 +34,78 @@
     <div class="hero__buttons">
         <button class="buttons__button buttons__button--main">{{ 'home.hero.buttons.main' | translate }}</button>
         <button class="buttons__button">{{ 'home.hero.buttons.other' | translate }}</button>
+    </div>
+</section>
+
+<hr>
+
+<!-- What I Do -->
+<section>
+    <div class="section__titles">
+        <h4 class="eyebrow">{{ 'home.services.eyebrow' | translate }}</h4>
+        <h2>{{ 'home.services.title' | translate }}</h2>
+        <p>{{ 'home.services.subtitle-one' | translate }}<br>{{ 'home.services.subtitle-two' | translate }}</p>
+    </div>
+
+    <div class="services__grid">
+        <div class="rounded-box services__box">
+            <img src="icons/globe.svg" alt="globe" class="services__icon">
+            <span class="services__box-title">{{ 'home.services.cards.one.title' | translate }}</span>
+            <p class="services__box-description">{{ 'home.services.cards.one.description' | translate }}</p>
+            <div class="services__box-pill">
+                <img src="icons/clock.svg" alt="clock" class="services__pill-icon">
+                <span class="services__pill-text">{{ 'home.services.cards.one.pill' | translate }}</span>
+            </div>
+        </div>
+
+        <div class="rounded-box services__box">
+            <img src="icons/palette.svg" alt="palette" class="services__icon">
+            <span class="services__box-title">{{ 'home.services.cards.two.title' | translate }}</span>
+            <p class="services__box-description">{{ 'home.services.cards.two.description' | translate }}</p>
+            <div class="services__box-pill">
+                <img src="icons/clock.svg" alt="clock" class="services__pill-icon">
+                <span class="services__pill-text">{{ 'home.services.cards.two.pill' | translate }}</span>
+            </div>
+        </div>
+
+        <div class="rounded-box services__box">
+            <img src="icons/wrench.svg" alt="wrench" class="services__icon">
+            <span class="services__box-title">{{ 'home.services.cards.three.title' | translate }}</span>
+            <p class="services__box-description">{{ 'home.services.cards.three.description' | translate }}</p>
+            <div class="services__box-pill services__box-pill--green">
+                <img src="icons/pin.svg" alt="clock" class="services__pill-icon services__pill-icon--green">
+                <span class="services__pill-text">{{ 'home.services.cards.three.pill' | translate }}</span>
+            </div>
+        </div>
+
+        <div class="rounded-box services__box">
+            <img src="icons/computer.svg" alt="computer" class="services__icon">
+            <span class="services__box-title">{{ 'home.services.cards.four.title' | translate }}</span>
+            <p class="services__box-description">{{ 'home.services.cards.four.description' | translate }}</p>
+            <div class="services__box-pill">
+                <img src="icons/clock.svg" alt="clock" class="services__pill-icon">
+                <span class="services__pill-text">{{ 'home.services.cards.four.pill' | translate }}</span>
+            </div>
+        </div>
+
+        <div class="rounded-box services__box">
+            <img src="icons/world.svg" alt="world" class="services__icon">
+            <span class="services__box-title">{{ 'home.services.cards.five.title' | translate }}</span>
+            <p class="services__box-description">{{ 'home.services.cards.five.description' | translate }}</p>
+            <div class="services__box-pill">
+                <img src="icons/clock.svg" alt="clock" class="services__pill-icon">
+                <span class="services__pill-text">{{ 'home.services.cards.five.pill' | translate }}</span>
+            </div>
+        </div>
+
+        <div class="rounded-box services__box">
+            <img src="icons/repeat.svg" alt="repeat" class="services__icon">
+            <span class="services__box-title">{{ 'home.services.cards.six.title' | translate }}</span>
+            <p class="services__box-description">{{ 'home.services.cards.six.description' | translate }}</p>
+            <div class="services__box-pill">
+                <img src="icons/clock.svg" alt="clock" class="services__pill-icon">
+                <span class="services__pill-text">{{ 'home.services.cards.six.pill' | translate }}</span>
+            </div>
+        </div>
     </div>
 </section>
