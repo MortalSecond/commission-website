@@ -5,7 +5,7 @@
                 "one": "Lo Que Hago",
                 "two": "Portafolio",
                 "three": "Demos",
-                "four": "Covertura",
+                "four": "Cobertura",
                 "five": "TICS",
                 "six": "Proceso",
                 "seven": "Precios"
@@ -63,6 +63,25 @@
                     "title": "Mantenimiento y correcciones",
                     "description": "¿Tienes un sitio roto, lento u obsoleto? ¿Necesitas una nueva función para un sitio existente? Mándamelo. Correcciones únicas o mantenimiento continuo. No desaparezco después de entregar.",
                     "pill": "Según se necesite"
+                }
+            }
+        },
+        "portfolio": {
+            "eyebrow": "Trabajo Reciente",
+            "title": "Lo que he lanzado",
+            "subtitle": "Proyectos reales, clientes reales, despliegues reales. Ninguno es un proyecto de tutorial ni una 'app de práctica.'",
+            "projects": {
+                "atelier": {
+                    "type": "Sitio Web Full-Stack",
+                    "title": "Atelier Geode",
+                    "description": "Plataforma web para un artesano de decoracion de marcos. Frontend en Angular 19, API en ASP.NET Core, base de datos PostgreSQL, Azure Blob Storage, autenticación JWT, función de correo con Gmail + Resend, panel de administrador, configurador de precios en tiempo real, soporte bilingüe y despliegue con Docker. Activo y en producción.",
+                    "button": "Ver sitio"
+                },
+                "orchestra": {
+                    "type": "Aplicación de Escritorio",
+                    "title": "OrchestraMC",
+                    "description": "App de escritorio para Windows hecho en WPF que despliega un servidor de Minecraft y gestiona el túnel de conexión para que cualquiera pueda conectarse. Maneja la instalación de Forge, los proxies de Ngrok y Playit.gg, incluye un editor de server.properties y arranque con un solo clic. Sin 'port forwarding,' sin necesidad de conocimientos técnicos. Integra Ngrok y Playit.gg.",
+                    "button": "GitHub"
                 }
             }
         }

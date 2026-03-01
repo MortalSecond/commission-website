@@ -152,3 +152,101 @@ section{
     font-size: 1.3rem;
     font-weight: 700;
 }
+
+/* Portfolio | Recent Work */
+
+.portfolio__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
+    gap: 2rem;
+}
+
+.portfolio__project{
+    background-color: white;
+}
+
+.project__image-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    height: 20rem;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.project__image-wrapper img{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.project__eyebrow{
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    z-index: 1;
+    
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--blueDeep);
+    
+    background-color: var(--blueFaint);
+    padding: 0.4rem 1.2rem;
+    border-radius: 2rem;
+}
+
+.project__textbox{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+
+    padding: 2rem;
+}
+
+.project__title{
+    font-family: var(--smallTitlesFont);
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--blueDeep);
+}
+
+.project__description{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.project__buttons{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.buttons__pills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin-right: auto;
+    margin-top: 0.8rem;
+}
+
+.project__button{
+    display: flex;
+    gap: 0.2rem;
+
+    margin-left: auto;
+    margin-top: auto;
+
+    color: var(--inkMuted);
+
+    height: fit-content;
+}
+
+.button__icon{
+    height: 1.4rem;
+
+    filter: var(--toInkMuted);
+}

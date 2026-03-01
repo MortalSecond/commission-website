@@ -9,5 +9,11 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './home.css',
 })
 export class Home {
-
+  // Plain Data
+  readonly atelierGeode = {
+    pills: ['Angular 19', 'ASP.NET Core', 'PostgreSQL', 'Azure Blob Storage', 'Email MailKit', 'JWT Auth', 'Docker']
+  };
+  readonly orchestraMC = {
+    pills: ['C# WPF', '.NET 9', 'CLI', 'MVVM', 'Async/Await', 'SOAP/XML API', 'Ngrok API', 'Playit.gg']
+  };
 }

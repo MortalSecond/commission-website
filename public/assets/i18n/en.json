@@ -65,6 +65,25 @@
                     "pill": "As Needed"
                 }
             }
+        },
+        "portfolio":{
+            "eyebrow": "Recent Work",
+            "title": "Stuff i've shipped",
+            "subtitle": "Real projects, real clients, real deployments. None of these are tutorial projects or 'practice apps.'",
+            "projects":{
+                "atelier":{
+                    "type": "Full-stack Website",
+                    "title": "Atelier Geode",
+                    "description": "A custom web platform for a bespoke picture framing artisan. Angular 19 frontend, ASP.NET Core API, PostgreSQL database, Azure Blob Storage, JWT auth, Gmail + Resend email function, admin dashboard, real-time price configurator, bilingual support, Docker deployment. Deployed and live.",
+                    "button": "Live"
+                },
+                "orchestra":{
+                    "type": "Desktop Application",
+                    "title": "OrchestraMC",
+                    "description": "WPF Windows desktop app that deploys a Minecraft server and handles tunneling so anyone can connect. Handles the Forge installation, Ngrok/Playit.gg proxies management, has a server.properties editor, simple one-click startup. No port forwarding, no tech knowledge required. Integrates Ngrok + Playit.gg.",
+                    "button": "GitHub"
+                }
+            }
         }
     }
 }

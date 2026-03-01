@@ -109,3 +109,66 @@
         </div>
     </div>
 </section>
+
+<hr>
+
+<!-- Portfolio -->
+ <section>
+    <div class="section__titles">
+        <h4 class="eyebrow">{{ 'home.portfolio.eyebrow' | translate }}</h4>
+        <h2>{{ 'home.portfolio.title' | translate }}</h2>
+        <p>{{ 'home.portfolio.subtitle' | translate }}</p>
+    </div>
+
+    <div class="portfolio__grid">
+        <!-- Atelier Geode -->
+        <div class="rounded-box portfolio__project">
+            <div class="project__image-wrapper">
+                <img src="assets/images/atelier-geode-screenshot.png" alt="">
+                <span class="project__eyebrow">{{ 'home.portfolio.projects.atelier.type' | translate }}</span>
+            </div>
+
+            <div class="project__textbox">
+                <h3 class="project__title">{{ 'home.portfolio.projects.atelier.title' | translate }}</h3>
+                <p class="project__description">{{ 'home.portfolio.projects.atelier.description' | translate }}</p>
+                <div class="project__buttons">
+                    <div class="buttons__pills">
+                        @for (pill of atelierGeode.pills; track pill) 
+                        {
+                            <span class="tech-pill">{{pill}}</span>
+                        }
+                    </div>
+                    <a class="project__button pill" href="https://atelier-geode.vercel.app" target="_blank" rel="noopener noreferrer">
+                        {{ 'home.portfolio.projects.atelier.button' | translate }}
+                        <img src="icons/redirectArrow.svg" alt="redirection arrow" class="button__icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- OrchestraMC -->
+        <div class="rounded-box portfolio__project">
+            <div class="project__image-wrapper">
+                <img src="assets/images/orchestra-screenshot.png" alt="">
+                <span class="project__eyebrow">{{ 'home.portfolio.projects.orchestra.type' | translate }}</span>
+            </div>
+
+            <div class="project__textbox">
+                <h3 class="project__title">{{ 'home.portfolio.projects.orchestra.title' | translate }}</h3>
+                <p class="project__description">{{ 'home.portfolio.projects.orchestra.description' | translate }}</p>
+                <div class="project__buttons">
+                    <div class="buttons__pills">
+                        @for (pill of orchestraMC.pills; track pill) 
+                        {
+                            <span class="tech-pill">{{pill}}</span>
+                        }
+                    </div>
+                    <a class="project__button pill" href="https://github.com/MortalSecond/OrchestraMC/" target="_blank" rel="noopener noreferrer">
+                        {{ 'home.portfolio.projects.orchestra.button' | translate }}
+                        <img src="icons/redirectArrow.svg" alt="redirection arrow" class="button__icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
