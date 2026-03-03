@@ -4,11 +4,12 @@
             "options":{
                 "one": "Lo Que Hago",
                 "two": "Portafolio",
-                "three": "Demos",
-                "four": "Cobertura",
-                "five": "TICS",
-                "six": "Proceso",
-                "seven": "Precios"
+                "three": "Metodología",
+                "four": "Demos",
+                "five": "Cobertura",
+                "six": "TICS",
+                "seven": "Proceso",
+                "eight": "Precios"
             }
         },
         "hero":{
@@ -82,6 +83,58 @@
                     "title": "OrchestraMC",
                     "description": "App de escritorio para Windows hecho en WPF que despliega un servidor de Minecraft y gestiona el túnel de conexión para que cualquiera pueda conectarse. Maneja la instalación de Forge, los proxies de Ngrok y Playit.gg, incluye un editor de server.properties y arranque con un solo clic. Sin 'port forwarding,' sin necesidad de conocimientos técnicos. Integra Ngrok y Playit.gg.",
                     "button": "GitHub"
+                }
+            }
+        },
+        "methods":{
+            "eyebrow": "Cómo Trabajo",
+            "title": "Lo que ves es lo que obtienes",
+            "subtitle": "No escondo mis herramientas ni exagero mis capacidades. Este es mi stack exacto, sin sorpresas a mitad de proyecto. Si tu proyecto encaja con esto, vamos a trabajar muy bien juntos. Si no, te lo digo desde el inicio.",
+            "technologies":{
+                "angular":{
+                    "title": "Angular",
+                    "subtitle": "v17 a v20 preferido · AngularJS posible pero no recomendado",
+                    "pill": "Fuerte",
+                    "description":{
+                        "one": "Mi framework frontend principal. Escribo Angular moderno: signals, componentes standalone, la nueva sintaxis de control de flujo",
+                        "two": "Evito el estilo legacy de NgModule + RxJS-en-todos-lados cuando puedo, porque la metodología moderna es mucha más limpia. Puedo trabajar con proyectos Angular más viejos, pero si estás empezando desde cero, vamos a usar v17 mínimo."
+                    }
+                },
+                "react":{
+                    "title": "React",
+                    "pill": "Puedo · No es mi primera opción",
+                    "subtitle": "Hooks, componentes funcionales, patrones estándar",
+                    "description": "Puedo programar en React y el código va a salir bien. Pero Angular es donde me siento más comodo y soy más rapido, así que si me das a elegir, elijo Angular siempre. Si tu proyecto ya está en React, sin problema, trabajo con ello."
+                },
+                "aspnet":{
+                    "title": "ASP.NET Core",
+                    "pill": "Fuerte",
+                    "subtitle": "Web API · EF Core · JWT Auth · .NET 8/9",
+                    "description": "Mi backend de preferencia. APIs REST, autenticación JWT, autorización por roles, Entity Framework Core para la capa ORM. Estructuro con separación correcta de servicios y repositorios, no solo controllers haciendolo todo."
+                },
+                "postgre":{
+                    "title": "PostgreSQL",
+                    "pill": "Fuerte",
+                    "subtitle": "DB principal · migraciones EF Core · SQL directo cuando se necesita",
+                    "description": "Mi base de datos principal. Uso migraciones de EF Core para el manejo del schema, escribo queries directos si el rendimiento es de principal prioridad, y sé cómo corregir el timezone UTC default a horario de México correctamente. Esa la aprendí a las malas. '>_>"
+                },
+                "wpf":{
+                    "title": "Apps de Escritorio WPF",
+                    "pills": {
+                        "one": "Fuerte",
+                        "two": "Solo Windows"
+                    },
+                    "subtitle": "C# · WPF · MVVM · .NET 8/9 · WinForms (legacy) · .NET Framework (legacy)",
+                    "description":{
+                        "one": "Construyo aplicaciones de escritorio para Windows en WPF con arquitectura MVVM. Separación correcta de ViewModel/View, data binding, patrones de comandos, inyección de servicios. WinForms es donde empecé y todavía puedo leerlo y mantenerlo, pero no voy a empezar proyectos nuevos en él. WPF simplemente se ve mejor.",
+                        "two": "Empecé en .NET Framework 4.2 y conozco el camino completo de migración a .NET Core moderno; lo hice a mitad del desarrollo de OrchestraMC: cambiando ",
+                        "three": " arreglando patrones async, actualizando strings a strings nulleables, todo el rollo. Si necesitas modernizar una app de escritorio, es algo que ya tuve que hacer bajo presión."
+                    },
+                    "ui":{
+                        "go-to": "Principal",
+                        "legacy-migration": "Legacy / Migración",
+                        "out-of-scope": "Fuera de Alcance"
+                    }
                 }
             }
         }

@@ -4,11 +4,12 @@
             "options":{
                 "one": "What I Do",
                 "two": "Portfolio",
-                "three": "Demos",
-                "four": "Coverage",
-                "five": "IT Work",
-                "six": "Process",
-                "seven": "Pricing"
+                "three": "Methodology",
+                "four": "Demos",
+                "five": "Coverage",
+                "six": "IT Work",
+                "seven": "Process",
+                "eight": "Pricing"
             }
         },
         "hero":{
@@ -82,6 +83,58 @@
                     "title": "OrchestraMC",
                     "description": "WPF Windows desktop app that deploys a Minecraft server and handles tunneling so anyone can connect. Handles the Forge installation, Ngrok/Playit.gg proxies management, has a server.properties editor, simple one-click startup. No port forwarding, no tech knowledge required. Integrates Ngrok + Playit.gg.",
                     "button": "GitHub"
+                }
+            }
+        },
+        "methods":{
+            "eyebrow": "How I Work",
+            "title": "What you see is what you get",
+            "subtitle": "I don't hide my tools or oversell my range. This is my exact stack, no surprises mid-project. If your project fits this, we'll work great together. If it doesn't, I'll tell you upfront.",
+            "technologies":{
+                "angular":{
+                    "title": "Angular",
+                    "subtitle": "v17 to v20 preferred · AngularJS possible but not recommended",
+                    "pill": "Forte",
+                    "description":{
+                        "one": "My primary frontend framework. I write modern Angular, so signals, standalone components, the new control flow syntax",
+                        "two": "I specifically avoid the legacy NgModule + RxJS-everywhere style if I can help it, because the modern approach is far cleaner.  I can work with older Angular projects, but if you're starting fresh, we're going v17 minimum."
+                    }
+                },
+                "react":{
+                    "title": "React",
+                    "pill": "Can Do · Not my first choice",
+                    "subtitle": "Hooks, functional components, standard patterns",
+                    "description": "I can build in React and the code will be solid. But Angular is where I'm fastest and most comfortable, so if you give me a choice, I'll pick Angular every time. If your project is already in React, no problem, i'll work with it."
+                },
+                "aspnet":{
+                    "title": "ASP.NET Core",
+                    "pill": "Forte",
+                    "subtitle": "Web API · EF Core · JWT Auth · .NET 8/9",
+                    "description": "My backend of choice. REST APIs, JWT auth, role-based authorization, Entity Framework Core for the ORM layer. I structure with proper service/repository separation, not just controllers doing everything."
+                },
+                "postgre":{
+                    "title": "PostgreSQL",
+                    "pill": "Forte",
+                    "subtitle": "Primary DB · EF Core migrations · raw SQL when needed",
+                    "description": "My go-to database. I use EF Core migrations for schema management, write raw queries when performance demands it, and I know how to handle things like UTC timezone awareness properly. Learned that one the hard way. '>_>"
+                },
+                "wpf":{
+                    "title": "WPF Desktop Apps",
+                    "pills": {
+                        "one": "Forte",
+                        "two": "Windows only"
+                    },
+                    "subtitle": "C# · WPF · MVVM · .NET 8/9 · WinForms (legacy) · .NET Framework (legacy)",
+                    "description":{
+                        "one": "I build Windows desktop apps in WPF with MVVM architecture. Proper ViewModel/View separation, data binding, command patterns, service injection. WinForms is where I started and I can still read and maintain it, but I won't start new projects in it. WPF just produces better-looking apps.",
+                        "two": "I started on .NET Framework 4.2 and know the full migration path to modern .NET Core. I did this mid-development on OrchestraMC: swapping ",
+                        "three": " fixing async patterns, updating strings to their nullable counterparts -- the works. If you have a legacy desktop app that needs modernising, that's actually something I've done under pressure before."
+                    },
+                    "ui":{
+                        "go-to": "Go-To",
+                        "legacy-migration": "Legacy / Migration",
+                        "out-of-scope": "Out Of Scope"
+                    }
                 }
             }
         }

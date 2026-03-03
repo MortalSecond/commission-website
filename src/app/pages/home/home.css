@@ -80,8 +80,10 @@ section{
 }
 
 .section__titles p{
-    max-width: 60rem;
     font-weight: 600;
+    line-height: 2.6rem;
+
+    max-width: 60rem;
 }
 
 /* Services | What I Do */
@@ -161,10 +163,6 @@ section{
     gap: 2rem;
 }
 
-.portfolio__project{
-    background-color: white;
-}
-
 .project__image-wrapper{
     position: relative;
     display: flex;
@@ -214,11 +212,6 @@ section{
     color: var(--blueDeep);
 }
 
-.project__description{
-    font-size: 1.5rem;
-    line-height: 2.2rem;
-}
-
 .project__buttons{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -249,4 +242,60 @@ section{
     height: 1.4rem;
 
     filter: var(--toInkMuted);
+}
+
+/* Methods | How I Work */
+
+.technologies__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.technologies__card-info{
+    display: flex;
+    gap: 2rem;
+}
+
+.card-info__icon{
+    width: 5rem;
+
+    filter: var(--toBlue);
+}
+
+.card-info__text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-info__title-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-info__title{
+    font-family: var(--smallTitlesFont);
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.card-info__subtitle{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: var(--monoFont);
+    color: var(--inkLight);
+}
+
+.technologies__wpf-pills{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.technologies__wpf-ui{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
 }

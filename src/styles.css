@@ -16,6 +16,7 @@ html{
     --textFont: 'Nunito', sans-serif;
     --titlesFont: 'Instrument Serif', Georgia, serif;
     --smallTitlesFont: 'Syne', sans-serif;
+    --monoFont: 'JetBrains Mono', monospace;
 
     --blue: #3b82f6;
     --blueDark: #2563a8;
@@ -27,7 +28,11 @@ html{
     --greenDark: #059669;
     --greenFaint: #d1fae5;
     --cream: #fafaf7;
+    --amber: #f59e0b;
+    --amberFaint: #fffbeb;
+    --red: #ef4444;
     --inkMuted: #4a5568;
+    --inkLight: #94a3b8;
 
     --toBlue: invert(40%) sepia(56%) saturate(1959%) hue-rotate(202deg) brightness(99%) contrast(94%);
     --toBrightBlue: invert(44%) sepia(78%) saturate(6405%) hue-rotate(217deg) brightness(95%) contrast(94%);
@@ -39,8 +44,6 @@ html{
 
 body{
     font-family: var(--textFont);
-
-    background-color: var(--cream);
 }
 
 button{
@@ -89,12 +92,43 @@ a{
 
 hr{
     width: 90%;
+    margin: 0 auto;
     height: 0.2rem;
     background-color: var(--blueLight);
     border: none;
 }
 
+code{
+    font-family: var(--monoFont);
+    color: var(--blueDark);
+
+    background-color: var(--blueFaint);
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.4rem;
+}
+
 /* Utility Classes */
+
+.bg-cream{
+    background-color: var(--cream);
+}
+
+.flex-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-gap{
+    display: flex;
+    gap: 1rem;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 
 button,
 .pill{
@@ -119,13 +153,33 @@ button,
     background-color: white;
 }
 
+.small-pill{
+    font-family: var(--textFont);
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--greenDark);
+    
+    padding: 0.3rem 0.9rem;
+    border-radius: 2rem;
+    border: 1px solid var(--green);
+    background-color: var(--greenFaint);
+    height: fit-content;
+}
+
+.small-pill--yellow{
+    color: var(--amber);
+
+    background-color: var(--amberFaint);
+    border-color: var(--amber);
+}
+
 .tech-pill{
     display: flex;
     align-items: center;
     justify-content: center;
 
     font-size: 1.2rem;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--blueDark);
 
     width: fit-content;
@@ -133,6 +187,27 @@ button,
     border: solid 1px var(--blue);
     border-radius: 1rem;
     padding: 0.5rem 1rem;
+}
+
+.tech-pill--green{
+    color: var(--greenDark);
+
+    background-color: var(--greenFaint);
+    border: 1px solid var(--greenDark);
+}
+
+.tech-pill--yellow{
+    color: var(--amber);
+
+    background-color: var(--amberFaint);
+    border: 1px solid var(--amber);
+}
+
+.tech-pill--red{
+    color: var(--red);
+
+    background-color: var(--redFaint);
+    border: 1px solid var(--red);
 }
 
 .eyebrow{
@@ -163,4 +238,23 @@ button,
 
 .rounded-box:hover{
     border-color: var(--blue);
+}
+
+.readable-text{
+    font-size: 1.5rem;
+    line-height: 1.75;
+}
+
+.readable-text code{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    padding: 2rem;
+    background-color: var(--cream);
 }

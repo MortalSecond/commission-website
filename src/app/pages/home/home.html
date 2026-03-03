@@ -1,7 +1,7 @@
 <app-navbar></app-navbar>
 
 <!-- Hero -->
-<section class="hero">
+<section class="hero bg-cream">
     <div class="pill">
         <span class="status-dot"></span>
         {{ 'home.hero.status' | translate }}
@@ -40,7 +40,7 @@
 <hr>
 
 <!-- What I Do -->
-<section>
+<section class="bg-cream">
     <div class="section__titles">
         <h4 class="eyebrow">{{ 'home.services.eyebrow' | translate }}</h4>
         <h2>{{ 'home.services.title' | translate }}</h2>
@@ -113,7 +113,7 @@
 <hr>
 
 <!-- Portfolio -->
- <section>
+<section>
     <div class="section__titles">
         <h4 class="eyebrow">{{ 'home.portfolio.eyebrow' | translate }}</h4>
         <h2>{{ 'home.portfolio.title' | translate }}</h2>
@@ -122,7 +122,7 @@
 
     <div class="portfolio__grid">
         <!-- Atelier Geode -->
-        <div class="rounded-box portfolio__project">
+        <div class="rounded-box bg-cream">
             <div class="project__image-wrapper">
                 <img src="assets/images/atelier-geode-screenshot.png" alt="">
                 <span class="project__eyebrow">{{ 'home.portfolio.projects.atelier.type' | translate }}</span>
@@ -130,7 +130,7 @@
 
             <div class="project__textbox">
                 <h3 class="project__title">{{ 'home.portfolio.projects.atelier.title' | translate }}</h3>
-                <p class="project__description">{{ 'home.portfolio.projects.atelier.description' | translate }}</p>
+                <p class="readable-text">{{ 'home.portfolio.projects.atelier.description' | translate }}</p>
                 <div class="project__buttons">
                     <div class="buttons__pills">
                         @for (pill of atelierGeode.pills; track pill) 
@@ -147,7 +147,7 @@
         </div>
         
         <!-- OrchestraMC -->
-        <div class="rounded-box portfolio__project">
+        <div class="rounded-box bg-cream">
             <div class="project__image-wrapper">
                 <img src="assets/images/orchestra-screenshot.png" alt="">
                 <span class="project__eyebrow">{{ 'home.portfolio.projects.orchestra.type' | translate }}</span>
@@ -155,7 +155,7 @@
 
             <div class="project__textbox">
                 <h3 class="project__title">{{ 'home.portfolio.projects.orchestra.title' | translate }}</h3>
-                <p class="project__description">{{ 'home.portfolio.projects.orchestra.description' | translate }}</p>
+                <p class="readable-text">{{ 'home.portfolio.projects.orchestra.description' | translate }}</p>
                 <div class="project__buttons">
                     <div class="buttons__pills">
                         @for (pill of orchestraMC.pills; track pill) 
@@ -171,4 +171,201 @@
             </div>
         </div>
     </div>
- </section>
+</section>
+
+<hr>
+
+<!-- How I Work -->
+<section>
+    <div class="section__titles">
+        <h4 class="eyebrow">{{ 'home.methods.eyebrow' | translate }}</h4>
+        <h2>{{ 'home.methods.title' | translate }}</h2>
+        <p>{{ 'home.methods.subtitle' | translate }}</p>
+    </div>
+
+    <div class="technologies__grid">
+        <!-- Angular -->
+        <div class="rounded-box card">
+            <div class="technologies__card-info">
+                <img src="icons/angular.svg" alt="" class="card-info__icon">
+                <div class="card-info__text">
+                    <div class="card-info__title-wrapper">
+                        <h3 class="card-info__title">{{ 'home.methods.technologies.angular.title' | translate }}</h3>
+                        <span class="small-pill">{{ 'home.methods.technologies.angular.pill' | translate }}</span>
+                    </div>
+                    <h4 class="card-info__subtitle">{{ 'home.methods.technologies.angular.subtitle' | translate }}</h4>
+                </div>
+            </div>
+
+            <div class="flex-column">
+                <p class="readable-text">
+                    {{ 'home.methods.technologies.angular.description.one' | translate }}
+                    ( <code>&commat;if</code>, <code>&commat;for</code>).
+                    {{ 'home.methods.technologies.angular.description.two' | translate }}
+                </p>
+                <br>
+                <div class="flex-gap">
+                    @for (pill of angular.green; track pill) 
+                    {
+                        <span class="tech-pill tech-pill--green">{{pill}}</span>
+                    }
+                    @for (pill of angular.yellow; track pill) 
+                    {
+                        <span class="tech-pill tech-pill--yellow">{{pill}}</span>
+                    }
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- ASP.NET -->
+        <div class="rounded-box card">
+            <div class="technologies__card-info">
+                <img src="icons/dotnet.svg" alt="" class="card-info__icon">
+                <div class="card-info__text">
+                    <div class="card-info__title-wrapper">
+                        <h3 class="card-info__title">{{ 'home.methods.technologies.aspnet.title' | translate }}</h3>
+                        <span class="small-pill">{{ 'home.methods.technologies.aspnet.pill' | translate }}</span>
+                    </div>
+                    <h4 class="card-info__subtitle">{{ 'home.methods.technologies.aspnet.subtitle' | translate }}</h4>
+                </div>
+            </div>
+
+            <div class="flex-column">
+                <p class="readable-text">
+                    {{ 'home.methods.technologies.aspnet.description' | translate }}
+                </p>
+                <br>
+                <div class="flex-gap">
+                    @for (pill of aspnet.green; track pill) 
+                    {
+                        <span class="tech-pill tech-pill--green">{{pill}}</span>
+                    }
+                </div>
+            </div>
+        </div>
+        
+        <!-- PostgreSQL -->
+        <div class="rounded-box card">
+            <div class="technologies__card-info">
+                <img src="icons/postgresql.svg" alt="" class="card-info__icon">
+                <div class="card-info__text">
+                    <div class="card-info__title-wrapper">
+                        <h3 class="card-info__title">{{ 'home.methods.technologies.postgre.title' | translate }}</h3>
+                        <span class="small-pill">{{ 'home.methods.technologies.postgre.pill' | translate }}</span>
+                    </div>
+                    <h4 class="card-info__subtitle">{{ 'home.methods.technologies.postgre.subtitle' | translate }}</h4>
+                </div>
+            </div>
+
+            <div class="flex-column">
+                <p class="readable-text">
+                    {{ 'home.methods.technologies.postgre.description' | translate }}
+                </p>
+                <br>
+                <div class="flex-gap">
+                    @for (pill of postgre.green; track pill) 
+                    {
+                        <span class="tech-pill tech-pill--green">{{pill}}</span>
+                    }
+                    @for (pill of postgre.yellow; track pill) 
+                    {
+                        <span class="tech-pill tech-pill--yellow">{{pill}}</span>
+                    }
+                </div>
+            </div>
+        </div>
+        
+        <!-- React -->
+        <div class="rounded-box card">
+            <div class="technologies__card-info">
+                <img src="icons/react.svg" alt="" class="card-info__icon">
+                <div class="card-info__text">
+                    <div class="card-info__title-wrapper">
+                        <h3 class="card-info__title">{{ 'home.methods.technologies.react.title' | translate }}</h3>
+                        <span class="small-pill small-pill--yellow">{{ 'home.methods.technologies.react.pill' | translate }}</span>
+                    </div>
+                    <h4 class="card-info__subtitle">{{ 'home.methods.technologies.react.subtitle' | translate }}</h4>
+                </div>
+            </div>
+
+            <div class="flex-column">
+                <p class="readable-text">
+                    {{ 'home.methods.technologies.react.description' | translate }}
+                </p>
+                <br>
+                <div class="flex-gap">
+                    @for (pill of react.green; track pill) 
+                    {
+                        <span class="tech-pill tech-pill--green">{{pill}}</span>
+                    }
+                    @for (pill of react.yellow; track pill) 
+                    {
+                        <span class="tech-pill tech-pill--yellow">{{pill}}</span>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- WPF -->
+    <div class="rounded-box card">
+        <div class="technologies__card-info">
+            <img src="icons/windows.svg" alt="" class="card-info__icon">
+            <div class="card-info__text">
+                <div class="card-info__title-wrapper">
+                    <h3 class="card-info__title">{{ 'home.methods.technologies.wpf.title' | translate }}</h3>
+                    <span class="small-pill">{{ 'home.methods.technologies.wpf.pills.one' | translate }}</span>
+                    <span class="small-pill small-pill--yellow">{{ 'home.methods.technologies.wpf.pills.two' | translate }}</span>
+                </div>
+                <h4 class="card-info__subtitle">{{ 'home.methods.technologies.wpf.subtitle' | translate }}</h4>
+            </div>
+        </div>
+
+        <div class="technologies__grid">
+            <p class="readable-text">
+                {{ 'home.methods.technologies.wpf.description.one' | translate }}
+                <br><br>
+                {{ 'home.methods.technologies.wpf.description.two' | translate }}
+                <code>WebClient</code> → <code>HttpClient</code>,
+                {{ 'home.methods.technologies.wpf.description.three' | translate }}
+            </p>
+            <div class="technologies__wpf-pills">
+                <div class="flex-column">
+                    <h4 class="card-info__subtitle technologies__wpf-ui">
+                        {{ 'home.methods.technologies.wpf.ui.go-to' | translate }}
+                    </h4>
+                    <div class="flex-gap">
+                        @for (pill of desktopApps.goTo; track pill) 
+                        {
+                            <span class="tech-pill tech-pill--green">✓ {{pill}}</span>
+                        }
+                    </div>
+                </div>
+                <div class="flex-column">
+                    <h4 class="card-info__subtitle technologies__wpf-ui">
+                        {{ 'home.methods.technologies.wpf.ui.legacy-migration' | translate }}
+                    </h4>
+                    <div class="flex-gap">
+                        @for (pill of desktopApps.legacy; track pill) 
+                        {
+                            <span class="tech-pill tech-pill--yellow">~ {{pill}}</span>
+                        }
+                    </div>
+                </div>
+                <div class="flex-column">
+                    <h4 class="card-info__subtitle technologies__wpf-ui">
+                        {{ 'home.methods.technologies.wpf.ui.out-of-scope' | translate }}
+                    </h4>
+                    <div class="flex-gap">
+                        @for (pill of desktopApps.outOfScope; track pill) 
+                        {
+                            <span class="tech-pill tech-pill--red">✕ {{pill}}</span>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
