@@ -299,3 +299,8 @@ section{
     font-size: 1.1rem;
     letter-spacing: 0.1rem;
 }
+
+.technologies__separation{
+    border-top: solid 1px var(--blueLight);
+    padding-top: 2rem;
+}

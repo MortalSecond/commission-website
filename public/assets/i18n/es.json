@@ -136,6 +136,21 @@
                         "out-of-scope": "Fuera de Alcance"
                     }
                 }
+            },
+            "css":{
+                "title": "Sobre CSS: BEM Vanilla. Sin Tailwind, sin SCSS.",
+                "subtitle": "Escribo CSS puro con convención de nomenclatura BEM. Sin frameworks de clases utilitarias, sin preprocesadores.",
+                "cards":{
+                    "advantages":{
+                        "title": "¿Por qué BEM?",
+                        "list": ["Sin dependencia built-step durante la compilación. Es CSS puro, despues de todo", "Los nombres de clases se autodocumentan, los puedes entender igual de facil meses después", "Sin frameworks de los que migrar después cuando ya no esten de moda", "Escala limpiamente en componentes grandes"]
+                    },
+                    "disadvantages":{
+                        "title": "Desventajas",
+                        "list": ["Más verboso que las clases utilitarias", "Sin sistema de tokens de diseño integrado (yo añado variables CSS manualmente)", "Tailwind hace prototipos más rápido"]
+                    }
+                },
+                "note": "Si tu codebase ya usa Tailwind, puedo trabajar con eso, pero en proyectos nuevos desde cero, voy a usar esto por defecto."
             }
         }
     }

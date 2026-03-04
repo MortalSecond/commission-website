@@ -368,4 +368,70 @@
         </div>
     </div>
 
+    <!-- On CSS -->
+    <div class="technologies__separation technologies__grid">
+        <!-- Pros and Cons -->
+        <div class="flex-column--big">
+            <h3 class="card-info__title">{{ 'home.methods.css.title' | translate }}</h3>
+            <p>{{ 'home.methods.css.subtitle' | translate }}</p>
+
+            <div class="technologies__grid">
+                <div class="card rounded-box">
+                    <span class="small-pill">{{ 'home.methods.css.cards.advantages.title' | translate }}</span>
+                    <ul>
+                        @for (item of css.advantages(); track item) 
+                        {
+                            <li>{{item}}</li>
+                        }
+                    </ul>
+                </div>
+                <div class="card rounded-box">
+                    <span class="small-pill small-pill--yellow">{{ 'home.methods.css.cards.disadvantages.title' | translate }}</span>
+                    <ul>
+                        @for (item of css.disadvantages(); track item) 
+                        {
+                            <li>{{item}}</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="note">
+                <p>{{ 'home.methods.css.note' | translate }}</p>
+            </div>
+        </div>
+        
+        <!-- Code Example -->
+        <div class="code-window">
+            <div class="code-window__titlebar">
+                <div class="code-window__dot" style="background:#ef4444"></div>
+                <div class="code-window__dot" style="background:#fbbf24"></div>
+                <div class="code-window__dot" style="background:#22c55e"></div>
+                <span class="code-window__filename">hero.component.css</span>
+            </div>
+<pre class="code-window__code-block">
+<span class="code-window__comment">/* Block */</span>
+<span class="code-window__selector">.hero</span>&#123;
+    <span class="code-window__property">display</span>: <span class="code-window__value">grid</span>;
+    <span class="code-window__property">min-height</span>: <span class="code-window__value">100vh</span>;
+    <span class="code-window__property">padding</span>: <span class="code-window__value">8rem 4rem</span>;
+&#125;
+
+<span class="code-window__selector">.hero__button</span>&#123;
+    <span class="code-window__property">font-size</span>: <span class="code-window__value">2.6rem</span>;
+    <span class="code-window__property">background-color</span>: <span class="code-window__value">var(--inkMuted)</span>;
+&#125;
+
+<span class="code-window__comment">/* Modifier  (block__element--modifier) */</span>
+<span class="code-window__selector">.hero__button--main</span>&#123;
+    <span class="code-window__property">background-color</span>: <span class="code-window__value">var(--goldenFaint)</span>;
+    <span class="code-window__property">color</span>: <span class="code-window__value">var(--golden)</span>;
+&#125;
+
+<span class="code-window__selector">.hero__button--disabled</span>&#123;
+    <span class="code-window__property">background-color</span>: <span class="code-window__value">var(--grey)</span>;
+    <span class="code-window__property">color</span>: <span class="code-window__value">var(--grey)</span>;
+&#125;
+</pre>
+        </div>
+    </div>
 </section>

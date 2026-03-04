@@ -136,6 +136,21 @@
                         "out-of-scope": "Out Of Scope"
                     }
                 }
+            },
+            "css":{
+                "title": "On CSS: Vanilla BEM. No Tailwind, no SCSS.",
+                "subtitle": "I write plain CSS with BEM naming convention. No utility-class frameworks, no preprocessors.",
+                "cards":{
+                    "advantages":{
+                        "title": "Why BEM",
+                        "list": ["Zero build-step dependency since it's just CSS", "Self-documenting class names you can read months later", "No framework to migrate away from when it goes out of fashion", "Scales cleanly in large components"]
+                    },
+                    "disadvantages":{
+                        "title": "The Tradeoff",
+                        "list": ["More verbose than utility classes", "No built-in design token system (I add CSS variables manually)", "Tailwind prototypes faster for throwaway UIs"]
+                    }
+                },
+                "note": "If your existing codebase uses Tailwind, I can work with it, but for greenfield projects, I'll default to this."
             }
         }
     }

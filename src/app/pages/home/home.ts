@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { Navbar } from "../../shared/components/navbar/navbar";
-import { TranslateModule } from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { toSignal } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +10,9 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './home.css',
 })
 export class Home {
+  // Services
+  private readonly translateService = inject(TranslateService);
+
   // Plain Data
   readonly atelierGeode = {
     pills: ['Angular 19', 'ASP.NET Core', 'PostgreSQL', 'Azure Blob Storage', 'Email MailKit', 'JWT Auth', 'Docker']
@@ -37,4 +41,8 @@ export class Home {
     legacy: ['WinForms', '.NET Framework 4.x', 'Framework → Core'],
     outOfScope: ['macOS / Linux desktop', 'Electron']
   };
+  css ={
+    advantages: toSignal<string[]>(this.translateService.stream('home.methods.css.cards.advantages.list')),
+    disadvantages: toSignal<string[]>(this.translateService.stream('home.methods.css.cards.disadvantages.list'))
+  }
 }
