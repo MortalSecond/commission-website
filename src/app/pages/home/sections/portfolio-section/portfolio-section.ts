@@ -1,0 +1,18 @@
+import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
+
+@Component({
+  selector: 'app-portfolio-section',
+  imports: [TranslateModule],
+  templateUrl: './portfolio-section.html',
+  styleUrl: './portfolio-section.css',
+})
+export class PortfolioSection {
+  // Plain Data
+  readonly atelierGeode = {
+    pills: ['Angular 19', 'ASP.NET Core', 'PostgreSQL', 'Azure Blob Storage', 'Email MailKit', 'JWT Auth', 'Docker']
+  };
+  readonly orchestraMC = {
+    pills: ['C# WPF', '.NET 9', 'CLI', 'MVVM', 'Async/Await', 'SOAP/XML API', 'Ngrok API', 'Playit.gg']
+  };
+}

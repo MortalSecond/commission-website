@@ -1,0 +1,74 @@
+/* Methods | How I Work */
+
+.technologies__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.technologies__card-info{
+    display: flex;
+    gap: 2rem;
+}
+
+.card-info__icon{
+    width: 5rem;
+
+    filter: var(--toBlue);
+}
+
+.card-info__text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-info__title-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-info__title{
+    font-family: var(--smallTitlesFont);
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.card-info__subtitle{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: var(--monoFont);
+    color: var(--inkLight);
+}
+
+.technologies__wpf-pills{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.technologies__wpf-ui{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.technologies__separation{
+    border-top: solid 1px var(--blueLight);
+    padding-top: 2rem;
+}
+
+.technologies__scope-card{
+    display: flex;
+    align-items: center;
+
+    padding: 1.5rem;
+    background-color: var(--cream);
+}
+
+.technologies__scope-icon{
+    width: 3rem;
+    margin-right: 1rem;
+    filter: var(--toRed);
+}

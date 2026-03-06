@@ -137,6 +137,29 @@ code{
     border-radius: 0.4rem;
 }
 
+/* Sections */
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    padding: 6rem 8rem;
+}
+
+.section__titles{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section__titles p{
+    font-weight: 600;
+    line-height: 2.6rem;
+
+    max-width: 60rem;
+}
+
 /* Utility Classes */
 
 .bg-cream{
