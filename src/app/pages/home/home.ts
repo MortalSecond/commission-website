@@ -45,4 +45,22 @@ export class Home {
     advantages: toSignal<string[]>(this.translateService.stream('home.methods.css.cards.advantages.list')),
     disadvantages: toSignal<string[]>(this.translateService.stream('home.methods.css.cards.disadvantages.list'))
   }
+  outOfScope =[
+    {
+      title: 'home.methods.scope.one.title',
+      description: 'home.methods.scope.one.description'
+    },
+    {
+      title: 'home.methods.scope.two.title',
+      description: 'home.methods.scope.two.description'
+    },
+    {
+      title: 'home.methods.scope.three.title',
+      description: 'home.methods.scope.three.description'
+    },
+    {
+      title: 'home.methods.scope.four.title',
+      description: 'home.methods.scope.four.description'
+    }
+  ]
 }

@@ -151,6 +151,24 @@
                     }
                 },
                 "note": "If your existing codebase uses Tailwind, I can work with it, but for greenfield projects, I'll default to this."
+            },
+            "scope":{
+                "one":{
+                    "title": "Mobile apps (iOS/Android)",
+                    "description": "Native mobile is a different world. I'm not your person for that."
+                },
+                "two":{
+                    "title": "Vue, Svelte, other frameworks",
+                    "description": "They're easy so i can probably figure it out, but I won't take your money to learn on the job."
+                },
+                "three":{
+                    "title": "Python / Node / PHP backends",
+                    "description": "My backend is .NET. I don't do Laravel, Django, or Express."
+                },
+                "four":{
+                    "title": "Rush jobs under 3 days",
+                    "description": "Good work takes time. I won't cut corners to meet an unrealistic deadline."
+                }
             }
         }
     }

@@ -151,6 +151,26 @@
                     }
                 },
                 "note": "Si tu codebase ya usa Tailwind, puedo trabajar con eso, pero en proyectos nuevos desde cero, voy a usar esto por defecto."
+            },
+            "scope": {
+                "title": "Fuera de alcance",
+                "subtitle": "Cosas que no hago, y por qué te lo digo desde el principio.",
+                "one": {
+                    "title": "Apps móviles (iOS / Android)",
+                    "description": "El desarrollo nativo móvil es todo otro mundo. No soy tu persona para eso."
+                },
+                "two": {
+                    "title": "Vue, Svelte u otros frameworks",
+                    "description": "No son difíciles asi que podría arreglarmelas, pero no voy a cobrarte para aprenderlos."
+                },
+                "three": {
+                    "title": "Backends en Python / Node / PHP",
+                    "description": "Mi backend es .NET. No hago Laravel, Django, ni Express, y no voy a fingir que sí."
+                },
+                "four": {
+                    "title": "Trabajos urgentes de menos de 3 días",
+                    "description": "El buen trabajo toma tiempo. Prefiero decirte que no a entregar algo a medias."
+                }
             }
         }
     }

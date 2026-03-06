@@ -40,6 +40,7 @@ html{
     --toBrightBlue: invert(44%) sepia(78%) saturate(6405%) hue-rotate(217deg) brightness(95%) contrast(94%);
     --toDarkGreen: invert(33%) sepia(84%) saturate(1418%) hue-rotate(137deg) brightness(94%) contrast(96%);
     --toInkMuted: invert(34%) sepia(18%) saturate(522%) hue-rotate(179deg) brightness(92%) contrast(96%);
+    --toRed: invert(45%) sepia(90%) saturate(2256%) hue-rotate(332deg) brightness(94%) contrast(100%);
 }
 
 /* Global Tag Overrides */
@@ -306,6 +307,17 @@ button,
 
     padding: 2rem;
     background-color: var(--cream);
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--blueDeep);
+}
+
+.card-small-text{
+    font-size: 1.3rem;
+    line-height: 1.5;
 }
 
 .code-window{

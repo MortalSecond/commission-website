@@ -434,4 +434,18 @@
 </pre>
         </div>
     </div>
+
+    <!-- Out of Scope -->
+    <div class="technologies__separation technologies__grid">
+        @for (item of outOfScope; track item) 
+        {
+            <div class="rounded-box technologies__scope-card">
+                <img src="icons/x.svg" alt="" class="technologies__scope-icon">
+                <div class="flex-column">
+                    <span class="card-title">{{item.title | translate}}</span>
+                    <p class="card-small-text">{{item.description | translate}}</p>
+                </div>
+            </div>
+        }
+    </div>
 </section>

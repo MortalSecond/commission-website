@@ -304,3 +304,16 @@ section{
     border-top: solid 1px var(--blueLight);
     padding-top: 2rem;
 }
+
+.technologies__scope-card{
+    display: flex;
+
+    padding: 1.5rem;
+    background-color: var(--cream);
+}
+
+.technologies__scope-icon{
+    width: 3rem;
+    margin-right: 1rem;
+    filter: var(--toRed);
+}
