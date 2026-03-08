@@ -199,6 +199,13 @@ section{
     font-weight: 500;
 }
 
+.bottom-text{
+    margin-top: 0.7rem;
+
+    color: var(--greenDark);
+    font-size: 1.2rem;
+}
+
 .rounded-box{
     border: solid 1px var(--blueLight);
     border-radius: 2rem;

@@ -186,7 +186,14 @@
             "button": "Give It A Try!",
             "demos":{
                 "url": "https://www.yoursite.com",
-                "idle": "Click a feature to see a live preview!"
+                "idle": "Click a feature to see a live preview!",
+                "email":{
+                    "header": "From: noreply@yoursite.com · To: client@email.com",
+                    "title": "✅ Your commission has been confirmed!",
+                    "text": "Hi there! Your order has been received and is now in the queue. You'll hear from us within 2 business days. Order #",
+                    "button": "View order status →",
+                    "bottom-text": "✓ Sent via MailKit · Custom templates · Automatic triggers"
+                }
             }
         }
     }

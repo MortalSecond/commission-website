@@ -1,6 +1,7 @@
 import { Component, inject, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { DemoEmail } from "./demo-email/demo-email";
 
 type DemoKey = 'dashboard' | 'pricing' | 'gallery' | 'auth' | 'i18n' | 'email';
 interface DemoOption{
@@ -10,7 +11,7 @@ interface DemoOption{
 
 @Component({
   selector: 'app-demo-section',
-  imports: [TranslateModule],
+  imports: [TranslateModule, DemoEmail],
   templateUrl: './demo-section.html',
   styleUrl: './demo-section.css',
 })

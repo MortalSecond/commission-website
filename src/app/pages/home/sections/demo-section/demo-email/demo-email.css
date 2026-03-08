@@ -1,0 +1,50 @@
+.demos__email{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    background-color: white;
+    padding: 1.3rem;
+    border-radius: 1rem;
+}
+
+.email__header{
+    font-size: 1.3rem;
+    color: var(--inkMuted);
+
+    border-bottom: solid 1px var(--blueLight);
+    padding-bottom: 1rem;
+}
+
+.email__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.email__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--blueDeep);
+}
+
+.email__text{
+    font-size: 1.3rem;
+    color: var(--inkMuted);
+    font-weight: 500;
+}
+
+.email__code{
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.email__button{
+    font-size: 1.2rem;
+    color: var(--blueBright);
+    font-weight: 600;
+
+    background-color: var(--blueLight);
+    padding: 1rem;
+    border-radius: 1rem;
+}
