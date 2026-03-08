@@ -4,10 +4,11 @@ import { TranslateModule } from '@ngx-translate/core';
 import { ServicesSection } from "./sections/services-section/services-section";
 import { PortfolioSection } from "./sections/portfolio-section/portfolio-section";
 import { MethodologySection } from "./sections/methodology-section/methodology-section";
+import { DemoSection } from "./sections/demo-section/demo-section";
 
 @Component({
   selector: 'app-home',
-  imports: [Navbar, TranslateModule, ServicesSection, PortfolioSection, MethodologySection],
+  imports: [Navbar, TranslateModule, ServicesSection, PortfolioSection, MethodologySection, DemoSection],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

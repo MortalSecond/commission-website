@@ -12,6 +12,7 @@ export class MethodologySection {
   // Services
   private readonly translateService = inject(TranslateService);
 
+  // Plain Data
   readonly angular ={
     green: ['Angular 19 - 20', 'Signals', 'Standalone'],
     yellow: ['AngularJS (legacy)']

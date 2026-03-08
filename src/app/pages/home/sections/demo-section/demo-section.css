@@ -1,0 +1,71 @@
+.demos__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.demos__column{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.demos__card{
+    display: flex;
+    place-content: center;
+    gap: 2rem;
+
+    padding: 2rem;
+    border-color: rgb(139, 162, 204);
+    background-color: var(--blueFaint);
+}
+
+.demos__card:hover{
+    border-color: var(--blueDark);
+}
+
+.demos__card p{
+    flex: 1;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.demos__card button{
+    margin-left: auto;
+
+    font-size: 1.3rem;
+    color: white;
+
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--blue);
+    padding: 0.8rem 1.4rem;
+    height: fit-content;
+
+    transition: background-color 0.3s;
+}
+
+.demos__card button:hover{
+    background-color: var(--blueBright);
+}
+
+.demos__preview{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.demos__idle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.demos__idle img{
+    width: 6rem;
+    filter: var(--toBlue);
+}

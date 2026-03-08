@@ -1,0 +1,44 @@
+<section id="demos">
+    <div class="section__titles">
+        <h4 class="eyebrow">{{ 'home.demos.eyebrow' | translate }}</h4>
+        <h2>{{ 'home.demos.title' | translate }}</h2>
+        <p>{{ 'home.demos.subtitle' | translate }}</p>
+    </div>
+
+    <div class="demos__grid">
+        <div class="demos__column">
+            @for (item of demos(); track item.key) 
+            {
+                <div class="rounded-box demos__card">
+                    <p>{{item.label}}</p>
+                    <button (click)="select(item.key)">
+                        {{ 'home.demos.button' | translate }}
+                    </button>
+                </div>
+            }
+        </div>
+
+        <div class="code-window">
+            <div class="code-window__titlebar">
+                <div class="code-window__dot" style="background:#ef4444"></div>
+                <div class="code-window__dot" style="background:#fbbf24"></div>
+                <div class="code-window__dot" style="background:#22c55e"></div>
+                <span class="code-window__filename">{{ 'home.demos.demos.url' | translate }}</span>
+            </div>
+
+            <div class="demos__preview">
+                @switch (currentDemo()) 
+                {
+                    @case ('dashboard') {}
+                    @default 
+                    {
+                        <div class="demos__idle">
+                            <img src="icons/click.svg" alt="">
+                            <p>{{ 'home.demos.demos.idle' | translate }}</p>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</section>

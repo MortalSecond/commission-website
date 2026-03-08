@@ -170,6 +170,24 @@
                     "description": "Good work takes time. I won't cut corners to meet an unrealistic deadline."
                 }
             }
+        },
+        "demos":{
+            "eyebrow": "Try It Yourself",
+            "title": "\"Can you add X feature?\" Probably yes. Try it!",
+            "subtitle": "These are demos of real features from projects I've built. Click \"Give It A Try!\" and try one of those plonkers on to peek under the hood.",
+            "options":[
+                { "key": "dashboard",  "label": "Admin Dashboard: Manage your content, no developer needed." },
+                { "key": "pricing",    "label": "Dynamic Price Configurator: live total as customers choose options" },
+                { "key": "gallery",    "label": "Image Gallery: cloud-hosted, expandable, no storage limits" },
+                { "key": "auth",       "label": "Secure Login: JWT tokens, role-based access, session management" },
+                { "key": "i18n",       "label": "Language Toggle: ngx-translate runtime, no page reload" },
+                { "key": "email",      "label": "Email Integration: MailKit and Resend for professional emails" }
+            ],
+            "button": "Give It A Try!",
+            "demos":{
+                "url": "https://www.yoursite.com",
+                "idle": "Click a feature to see a live preview!"
+            }
         }
     }
 }
