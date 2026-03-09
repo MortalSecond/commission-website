@@ -187,6 +187,9 @@
             "demos":{
                 "url": "https://www.yoursite.com",
                 "idle": "Click a feature to see a live preview!",
+                "i18n":{
+                    "bottom-text": "✓ ngx-translate · Zero page reload · Persists across routes"
+                },
                 "email":{
                     "header": "From: noreply@yoursite.com · To: client@email.com",
                     "title": "✅ Your commission has been confirmed!",

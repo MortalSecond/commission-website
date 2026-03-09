@@ -41,6 +41,8 @@ html{
     --toDarkGreen: invert(33%) sepia(84%) saturate(1418%) hue-rotate(137deg) brightness(94%) contrast(96%);
     --toInkMuted: invert(34%) sepia(18%) saturate(522%) hue-rotate(179deg) brightness(92%) contrast(96%);
     --toRed: invert(45%) sepia(90%) saturate(2256%) hue-rotate(332deg) brightness(94%) contrast(100%);
+
+    --boxShadow: 0 4px 24px rgba(0, 0, 0, 0.08);
 }
 
 /* Global Tag Overrides */

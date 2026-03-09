@@ -1,0 +1,17 @@
+<div class="demos__language">
+    <div class="demos__language-buttons">
+        <button class="language-buttons__button" (click)="demoLang.set('en')">
+            English
+        </button>
+        <button class="language-buttons__button" (click)="demoLang.set('es')">
+            Spanish
+        </button>
+    </div>
+
+    <div class="demos__language-content">
+        <h3 class="language-content__title">{{activeContent().title}}</h3>
+        <p class="language-content__subtitle">{{activeContent().subtitle}}</p>
+        <button class="language-content__button">{{activeContent().button}}</button>
+    </div>
+</div>
+<h4 class="bottom-text">{{ 'home.demos.demos.i18n.bottom-text' | translate }}</h4>
