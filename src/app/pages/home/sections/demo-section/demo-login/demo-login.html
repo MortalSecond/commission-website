@@ -1,0 +1,19 @@
+<div class="rounded-box bg-cream flex-column--big demo__login">
+    <div>
+        <img src="icons/lock.svg" alt="" class="login__icon">
+        <h4 class="login__title">Admin Login</h4>
+    </div>
+
+    <div class="login__wrapper">
+        <input type="text" name="demo-user" id="demo-user" placeholder="admin" 
+        class="login__input" autocomplete="off">
+        <input type="password" name="demo-password" id="demo-word" placeholder="password" 
+        class="login__input" autocomplete="off">
+        <button (click)="clickDemoButton()" class="login__login-button" 
+        [class.login__login-button--active]="isClicked()">
+            {{buttonContent() | translate}}
+        </button>
+    </div>
+
+    <h4 class="bottom-text">{{ 'home.demos.demos.auth.bottom-text' | translate }}</h4>
+</div>

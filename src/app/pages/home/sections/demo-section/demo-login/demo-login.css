@@ -1,0 +1,47 @@
+.demo__login{
+    text-align: center;
+    
+    padding: 2rem;
+    width: 40rem;
+    box-shadow: var(--boxShadow);
+}
+
+.login__icon{
+    width: 6rem;
+
+    filter: var(--toBlue);
+}
+
+.login__title{
+    font-size: 2.3rem;
+}
+
+.login__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.login__input{
+    font-size: 1.5rem;
+
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: solid 1px var(--blueDeep);
+}
+
+.login__login-button{
+    color: white;
+
+    min-width: 25rem;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 1rem;
+}
+
+.login__login-button--active{
+    background-color: green;
+}

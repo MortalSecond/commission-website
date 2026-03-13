@@ -187,6 +187,11 @@
             "demos":{
                 "url": "https://www.yoursite.com",
                 "idle": "Click a feature to see a live preview!",
+                "auth":{
+                    "button": "Login",
+                    "button-clicked": "Token Issued! (JWT, 8hr Expiry)",
+                    "bottom-text": "Your admin panel is behind a JWT-authenticated wall. Nobody gets in without the password."
+                },
                 "i18n":{
                     "bottom-text": "✓ ngx-translate · Zero page reload · Persists across routes"
                 },
