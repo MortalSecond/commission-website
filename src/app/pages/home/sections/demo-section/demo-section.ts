@@ -4,6 +4,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { DemoEmail } from "./demo-email/demo-email";
 import { DemoI18n } from './demo-i18n/demo-i18n';
 import { DemoLogin } from './demo-login/demo-login';
+import { DemoConfigurator } from './demo-configurator/demo-configurator';
 
 type DemoKey = 'dashboard' | 'pricing' | 'gallery' | 'auth' | 'i18n' | 'email';
 interface DemoOption{
@@ -13,7 +14,7 @@ interface DemoOption{
 
 @Component({
   selector: 'app-demo-section',
-  imports: [TranslateModule, DemoEmail, DemoI18n, DemoLogin],
+  imports: [TranslateModule, DemoEmail, DemoI18n, DemoLogin, DemoConfigurator],
   templateUrl: './demo-section.html',
   styleUrl: './demo-section.css',
 })

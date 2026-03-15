@@ -1,0 +1,29 @@
+<div class="demo__config flex-column--big">
+    <div class="flex-column">
+        <label for="proj-type">{{ 'home.demos.demos.config.options.type.title' | translate }}</label>
+        <select id="proj-type" (change)="onTypeChange($event)">
+            @for (option of typeOptions; track option) 
+            {
+                <option [value]="option.value">{{option.title()}} (+{{option.value}})</option>
+            }
+        </select>
+    </div>
+
+    <div class="config__option">
+        <h4>{{ 'home.demos.demos.config.options.features.title' | translate }}</h4>
+        <div class="config__option">
+            @for (feature of featureOptions; track feature) 
+            {
+                <div class="options__option">
+                    <input type="checkbox" [value]="feature.value" [id]="feature.title()" (change)="toggleFeature(feature.value)">
+                    <label [id]="feature.title()">{{feature.title()}} (+{{feature.value}})</label>
+                </div>                
+            }
+        </div>
+    </div>
+
+    <div class="demo__config config__price">
+        <h4 class="config__price-label">{{ 'home.demos.demos.config.total' | translate }}</h4>
+        <h4 class="config__price-number">${{ total() | number }}</h4>
+    </div>
+</div>
