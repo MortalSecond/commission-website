@@ -9,7 +9,7 @@
     justify-content: center;
     gap: 3rem;
 
-    padding: 4rem 30rem;
+    padding: 4rem clamp(2rem, 10vw, 30rem);
 
     text-align: center;
 }
