@@ -1,0 +1,68 @@
+<div class="demo__dashboard flex-column--big">
+    <div class="flex-column">
+        <h4 class="dashboard__title">{{ 'home.demos.demos.dashboard.title' | translate }}</h4>
+        <span class="dashboard__subtitle">{{ 'home.demos.demos.dashboard.subtitle' | translate }}</span>
+    </div>
+
+    <div class="dashboard__grid">
+        @for (item of topGrids; track item) 
+        {
+            <div class="dashboard__grid-item">
+                <span class="grid-item__title">{{item.title()}}</span>
+                <span class="grid-item__content">{{item.content}}</span>
+                <span class="grid-item__subtitle">{{item.subtitle()}}</span>
+            </div>
+        }
+    </div>
+
+    <div class="dashboard__table-wrapper">
+        <div class="table-wrapper__titles-container">
+            <h4 class="table-wrapper__title">{{ 'home.demos.demos.dashboard.queue' | translate }}</h4>
+            <button class="table-wrapper__button">+ {{ 'home.demos.demos.dashboard.queue-button' | translate }}</button>
+        </div>
+
+        <table class="table-wrapper__queue">
+            <tr>
+                <th>{{ 'home.demos.demos.dashboard.table.row-one' | translate }}</th>
+                <th>{{ 'home.demos.demos.dashboard.table.row-two' | translate }}</th>
+                <th>{{ 'home.demos.demos.dashboard.table.row-three' | translate }}</th>
+                <th>{{ 'home.demos.demos.dashboard.table.row-four' | translate }}</th>
+                <th>{{ 'home.demos.demos.dashboard.table.row-five' | translate }}</th>
+            </tr>
+            @for (row of tableRows; track row) 
+            {
+                <tr>
+                    <td class="queue__id">{{row.id}}</td>
+                    <td>
+                        <div class="queue__wrapper">
+                            <span class="queue__title">{{row.title()}}</span>
+                            <span class="queue__client">{{row.client}}</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="queue__progress"
+                        [class]="'queue__progress ' + getStatusClass(row.statusKey)">
+                            {{row.status()}}
+                        </div>
+                    </td>
+                    <td>
+                        <div class="flex-column">
+                            <div class="queue__progress-bar">
+                                <div class="queue__progress-content"
+                                [style.width.%]="row.bar"
+                                [class.queue__progress-content--green]="isProgressBarIsFull(row.bar)"></div>
+                            </div>
+                            <span class="queue__progress-number">{{row.progress}}</span>
+                        </div>
+                    </td>
+                    <td>
+                        <button class="queue__action"
+                        [class.queue__action--complete]="isProgressBarIsFull(row.bar)">
+                            {{row.button()}}
+                        </button>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

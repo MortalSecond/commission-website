@@ -29,6 +29,7 @@
             <div class="demos__preview">
                 @switch (currentDemo()) 
                 {
+                    @case ('dashboard') { <app-demo-dashboard /> }
                     @case ('pricing') { <app-demo-configurator /> }
                     @case ('auth') { <app-demo-login /> }
                     @case ('i18n') { <app-demo-i18n /> }

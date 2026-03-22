@@ -187,6 +187,41 @@
             "demos":{
                 "url": "https://www.yoursite.com",
                 "idle": "Click a feature to see a live preview!",
+                "dashboard":{
+                    "title": "Commission Dashboard",
+                    "subtitle": "Good afternoon, Diego",
+                    "grid":{
+                        "slots-title": "Active Slots",
+                        "slots-subtitle": "slots open",
+                        "month-title": "This Month",
+                        "month-subtitle": "MXN collected",
+                        "delivery-title": "Avg. Delivery",
+                        "delivery-days": "days",
+                        "delivery-subtitle": "last 3 projects"
+                    },
+                    "queue": "Commission queue",
+                    "queue-button": "New",
+                    "table":{
+                        "row-one": "Order",
+                        "row-two": "Project",
+                        "row-three": "Status",
+                        "row-four": "Progress",
+                        "row-five": "Actions",
+                        "status-progress": "In Progress",
+                        "progress-button": "View",
+                        "status-review": "Needs Review",
+                        "review-button": "Approve",
+                        "status-completed": "Completed",
+                        "completed-button": "Invoice",
+                        "status-pending": "Pending",
+                        "pending-button": "Remind",
+                        "status-awaiting": "Awaiting Deposit",
+                        "type-one": "E-Commerce Site",
+                        "type-two": "Landing Page",
+                        "type-three": "WPF Desktop App",
+                        "type-four": "Network setup"
+                    }
+                },
                 "config":{
                     "title": "Project",
                     "options":{
