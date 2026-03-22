@@ -1,0 +1,40 @@
+<section id="it-work" class="bg-blue">
+    <div class="section__titles">
+        <h4 class="eyebrow">{{ 'home.it.eyebrow' | translate }}</h4>
+        <h2>{{ 'home.it.title' | translate }}</h2>
+        <p>{{ 'home.it.subtitle' | translate }}</p>
+    </div>
+
+    <div class="it-work__grid">
+        @for (card of cards; track card) 
+        {
+            <div class="rounded-box flex-column--big it-work__card">
+                <div class="flex-gap--big">
+                    <img [src]="card.icon" alt="" class="card__icon">
+                    <div class="flex-column">
+                        <h4 class="card__title">{{card.title()}}</h4>
+                        <span class="card__subtitle">{{card.subtitle()}}</span>
+                    </div>
+                </div>
+
+                <div class="flex-column--big">
+                    @for (item of card.bullets; track item)
+                    {
+                        <div class="flex-gap">
+                            <img [src]="item.icon" alt="" class="bullet-point__icon">
+                            <div class="it-work__bullet-point">
+                                <h4 class="bullet-point__title">{{item.title()}}</h4>
+                                <p class="bullet-point__content">{{item.content()}}</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="rounded-box readable-text section__note">
+        <img src="icons/pin.svg" alt="" class="note__icon">
+        {{ 'home.it.note' | translate }}
+    </div>
+</section>

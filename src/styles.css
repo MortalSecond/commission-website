@@ -180,6 +180,11 @@ section{
     gap: 1rem;
 }
 
+.flex-gap--big{
+    display: flex;
+    gap: 2rem;
+}
+
 .flex-column{
     display: flex;
     flex-direction: column;

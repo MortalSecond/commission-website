@@ -265,6 +265,84 @@
                     "bottom-text": "✓ Enviado vía MailKit · Plantillas personalizadas · Disparadores automáticos"
                 }
             }
+        },
+        "it":{
+            "eyebrow": "Trabajo de TIC en Persona",
+            "title": "También me presento con un desarmador",
+            "subtitle": "No todo es un sitio web. A veces necesitas a alguien que pueda tender cable, reparar una impresora, o actualizar una computadora que ha estado corriendo con un disco duro desde el 2011. Cubro una distancia razonable alrededor de Otumba de Gómez Farías. Si estás fuera del área... igual podemos hablar de forma remota.",
+            "printers":{
+                "title": "Impresoras",
+                "subtitle": "Instalación · mantenimiento · reparación · drivers",
+                "bullets":{
+                    "one":{
+                        "title": "Mantenimiento",
+                        "content": "Limpieza de cabezales, alineación de injectores, limpieza del sistema de tinta. Lo que se supone que debes hacer cada seis meses pero nadie hace."
+                    },
+                    "two":{
+                        "title": "Conexión Inalámbrica",
+                        "content": "Que la impresora se quede en la red, funcione con varios dispositivos, y no desaparezca cada vez que el router se reinicia."
+                    },
+                    "three":{
+                        "title": "Instalación desde Cero",
+                        "content": "Impresora nueva, drivers correctos, funcionando en cada PC de la oficina. Incluyendo la que sigue corriendo Windows 7 en la esquina."
+                    }
+                }
+            },
+            "networks":{
+                "title": "Enrutadores y Redes",
+                "subtitle": "Configuración · IPs estáticas · seguridad · nivel ISP",
+                "bullets":{
+                    "one":{
+                        "title": "IPs Estáticas / Bloqueo DHCP",
+                        "content": "Asignar IPs fijas a cada dispositivo para que solo los equipos conocidos tengan acceso a internet y nadie externo pueda conectarse y robarte el ancho de banda. Filtrado MAC, control de acceso."
+                    },
+                    "two":{
+                        "title": "Configuración de Router",
+                        "content": "Routers TP-Link, POEs Ubiquiti, doble ancho de banda; he configurado todo eso. Instalación limpia, port forwarding, VLANs, límites de ancho de banda por dispositivo, actualizaciones de firmware."
+                    },
+                    "three":{
+                        "title": "Despliegue Completo Estilo ISP",
+                        "content": "Aprovisionamiento de extremo a extremo desde la terminación de fibra hasta la configuración del router del cliente."
+                    }
+                }
+            },
+            "cabling":{
+                "title": "Cableado Estructurado",
+                "subtitle": "UTP · RJ45 · fibra óptica · Cat6 SFTP",
+                "bullets":{
+                    "one":{
+                        "title": "Ponchado y Pruebas UTP",
+                        "content": "Ponchado de conectores RJ45, prueba de continuidad, reparación de tramos de cable dañados. Trabajo con el cableado que ya tienes instalado."
+                    },
+                    "two":{
+                        "title": "Terminación de Fibra Óptica",
+                        "content": "Fusión de fibras, terminación con conectores SC, prueba de pérdida de señal con OTDR. Todo el proceso. Experiencia profesional a nivel ISP; esto es lo que hacía en el campo en Offilex."
+                    },
+                    "three":{
+                        "title": "Traigo mi propio cable si lo necesitas",
+                        "content": "Cargo un rollo de 100m de Cat6 doble blindaje SFTP con conectores RJ45 metálicos. Cableado pesado, blindado contra interferencias, apto para entornos exigentes. Si necesitas cable de nivel industrial, lo tengo."
+                    }
+                }
+            },
+            "computers":{
+                "title": "Computadoras",
+                "subtitle": "Actualizaciones · ensambles · instalaciones de SO · diagnóstico",
+                "bullets":{
+                    "one":{
+                        "title": "Cambio de HDD a SSD",
+                        "content": "Lo más importante que puedes hacerle a una computadora vieja. Instalación limpia de Windows 11 en USB booteable. La diferencia es de noche a día."
+                    },
+                    "two":{
+                        "title": "Ensamble de PC a la Medida",
+                        "content": "Desde la tarjeta madre vacía hasta la máquina terminada; CPU, pasta térmica, RAM, cableado, configuración de BIOS. Armé mi propio equipo desde cero (DDR5 y todo)."
+                    },
+                    "three":{
+                        "title": "Diagnóstico y Reparación",
+                        "content": "Computadora lenta, con sobrecalentamiento, que no enciende; identifico qué está fallando antes de recomendarte gastar dinero en cualquier cosa."
+                    }
+                }
+            },
+            "note": "Todo el trabajo en persona está sujeto a mi zona de cobertura, vease el mapa abajo. Diagnóstico remotos y consultas están disponibles desde cualquier lugar."
         }
     }
 }

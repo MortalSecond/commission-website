@@ -1,0 +1,71 @@
+.bg-blue{
+    background-color: var(--blueFaint);
+}
+
+.it-work__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.it-work__card{
+    padding: 2rem;
+    background-color: white;
+}
+
+.card__icon{
+    width: 4rem;
+    filter: var(--toBrightBlue);
+}
+
+.card__title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: var(--smallTitlesFont);
+    color: var(--blueDeep);
+}
+
+.card__subtitle{
+    font-size: 1.15rem;
+    font-family: var(--monoFont);
+    color: var(--blue);
+}
+
+.it-work__bullet-point{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+
+    line-height: 1.6;
+}
+
+.bullet-point__icon{
+    width: 3rem;
+    filter: var(--toBlue);
+    margin-bottom: auto;
+}
+
+.bullet-point__title{
+    font-size: 1.5rem;
+    color: var(--blueDeep);
+}
+
+.bullet-point__content{
+    font-size: 1.5rem;
+}
+
+.section__note{
+    display: flex;
+    gap: 1rem;
+
+    font-weight: 600;
+
+    border-color: var(--greenDark);
+    background-color: var(--greenFaint);
+    padding: 2rem;
+}
+
+.note__icon{
+    width: 2.5rem;
+    filter: var(--toDarkGreen);
+}

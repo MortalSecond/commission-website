@@ -263,6 +263,84 @@
                     "bottom-text": "✓ Sent via MailKit · Custom templates · Automatic triggers"
                 }
             }
+        },
+        "it":{
+            "eyebrow": "In-Person IT Work",
+            "title": "I also show up with a screwdriver",
+            "subtitle": "Not everything is a website. Sometimes you need someone who can pull cable, fix a printer, or upgrade a computer that's been running on a spinning HDD since 2011. I cover a reasonable radius around Otumba de Gómez Farías. If you're outside the circle... we can still talk remotely.",
+            "printers":{
+                "title": "Printers",
+                "subtitle": "Setup · maintenance · repair · drivers",
+                "bullets":{
+                    "one":{
+                        "title": "Maintenance",
+                        "content": "Printhead cleaning, nozzle alignment, ink system flushing. The stuff you're supposed to do every six months but nobody does."
+                    },
+                    "two":{
+                        "title": "Wireless Setup",
+                        "content": "Getting a printer to actually stay on the network, work with multiple devices, and not vanish every time the router reboots."
+                    },
+                    "three":{
+                        "title": "Fresh Installation",
+                        "content": "New printer, right drivers, working on every PC in the office. Including the one running Windows 7 in the corner."
+                    }
+                }
+            },
+            "networks":{
+                "title": "Router & Network",
+                "subtitle": "Config · static IPs · security · ISP-level",
+                "bullets":{
+                    "one":{
+                        "title": "Static IP / DHCP lockdown",
+                        "content": "Assign fixed IPs to every device so only known nodes get internet access and strangers can't just connect and steal your bandwidth. MAC filtering, access control."
+                    },
+                    "two":{
+                        "title": "Router Configuration",
+                        "content": "TP-Link routers, Ubiquiti POEs, double-bandwidth; I've configured all of these. Fresh install, port forwarding, VLANs, bandwidth limits per device, firmware updates."
+                    },
+                    "three":{
+                        "title": "Full ISP-style Deployment",
+                        "content": "End-to-end provisioning from fiber termination to client-side router config."
+                    }
+                }
+            },
+            "cabling":{
+                "title": "Structured Cabling",
+                "subtitle": "UTP · RJ45 · fiber optic · Cat6 SFTP",
+                "bullets":{
+                    "one":{
+                        "title": "UTP Crimping & Testing",
+                        "content": "Crimping RJ45s, continuity testing, fixing broken cable runs. I work with whatever cable you already have installed."
+                    },
+                    "two":{
+                        "title": "Fiber Optic Termination",
+                        "content": "Fusion splicing two fiber cables, SC connector termination, signal loss testing with an OTDR. The works. Professional ISP-grade experience, this is what I did in the field at Offilex."
+                    },
+                    "three":{
+                        "title": "I bring my own cable if you need it",
+                        "content": "I carry a 100m spool of Cat6 double-shielded SFTP with metal RJ45 connectors. This is serious cabling, shielded against interference, suitable for demanding environments. If you need industrial-level cable, I got it."
+                    }
+                }
+            },
+            "computers":{
+                "title": "Computers",
+                "subtitle": "Upgrades · builds · OS installs · diagnosis",
+                "bullets":{
+                    "one":{
+                        "title": "HDD to SSD Upgrades",
+                        "content": "The single most impactful thing you can do to an old computer. Clean Windows 11 install on a bootable USB. Night and day difference."
+                    },
+                    "two":{
+                        "title": "Custom PC Builds",
+                        "content": "From bare motherboard to finished machine; CPU, thermal paste, RAM, cable management, BIOS config. Built my own rig from scratch (DDR5 and everything)."
+                    },
+                    "three":{
+                        "title": "Diagnosis & Repair",
+                        "content": "Slow machine, overheating, won't boot; I'll figure out what's wrong before recommending you spend money on anything."
+                    }
+                }
+            },
+            "note": "All in-person work is subject to my coverage zone, see the map below. Remote diagnosis and consulting is available anywhere."
         }
     }
 }
