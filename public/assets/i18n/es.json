@@ -174,7 +174,97 @@
             }
         },
         "demos":{
-
+            "eyebrow": "Pruébalo Tú Mismo",
+            "title": "\"¿Puedes añadir funciónalidad X?\" Probablemente sí. ¡Pruéba!",
+            "subtitle": "Estos son demos de funciones reales de proyectos que he construido antes. Haz clic en \"¡Pruébalo!\" y echales un ojo.",
+            "options":[
+                { "key": "dashboard",  "label": "Panel de Administración: Gestiona tu contenido, sin necesidad de un desarrollador." },
+                { "key": "pricing",    "label": "Configurador de Precios Dinámico: total en tiempo real conforme el cliente elige opciones" },
+                { "key": "gallery",    "label": "Galería de Imágenes: en la nube, escalable, sin límites de almacenamiento" },
+                { "key": "auth",       "label": "Inicio de Sesión Seguro: tokens JWT, acceso por roles, gestión de sesión" },
+                { "key": "i18n",       "label": "Cambio de Idioma: ngx-translate en tiempo real, sin recargar la página" },
+                { "key": "email",      "label": "Integración de Correo: MailKit y Resend para correos profesionales" }
+            ],
+            "button": "¡Pruébalo!",
+            "demos":{
+                "url": "https://www.yoursite.com",
+                "idle": "¡Haz clic en una función para ver una vista previa en vivo!",
+                "dashboard":{
+                    "title": "Panel de Comisiones",
+                    "subtitle": "Buenas tardes, Diego",
+                    "grid":{
+                        "slots-title": "Slots Activos",
+                        "slots-subtitle": "slots disponibles",
+                        "month-title": "Este Mes",
+                        "month-subtitle": "MXN cobrados",
+                        "delivery-title": "Entrega Prom.",
+                        "delivery-days": "días",
+                        "delivery-subtitle": "últimos 3 proyectos"
+                    },
+                    "queue": "Cola de comisiones",
+                    "queue-button": "Nuevo",
+                    "table":{
+                        "row-one": "Orden",
+                        "row-two": "Proyecto",
+                        "row-three": "Estado",
+                        "row-four": "Progreso",
+                        "row-five": "Acciones",
+                        "status-progress": "En Progreso",
+                        "progress-button": "Ver",
+                        "status-review": "Revisión Pendiente",
+                        "review-button": "Aprobar",
+                        "status-completed": "Completado",
+                        "completed-button": "Facturar",
+                        "status-pending": "Pendiente",
+                        "pending-button": "Recordatorio",
+                        "status-awaiting": "Esperando Depósito",
+                        "type-one": "Sitio de E-Commerce",
+                        "type-two": "Landing Page",
+                        "type-three": "App de Escritorio WPF",
+                        "type-four": "Instalación de red"
+                    }
+                },
+                "config":{
+                    "title": "Proyecto",
+                    "options":{
+                        "type":{
+                            "title": "Tipo de Proyecto",
+                            "options":{
+                                "one": "Landing page",
+                                "two": "Aplicación web full-stack",
+                                "three": "App de escritorio",
+                                "four": "Sitio de e-commerce"
+                            }
+                        },
+                        "features":{
+                            "title": "Funciones Adicionales",
+                            "options":{
+                                "one": "Bilingüe",
+                                "two": "Panel de administración",
+                                "three": "Integración de correo",
+                                "four": "Almacenamiento en la nube",
+                                "five": "Autenticación JWT"
+                            }
+                        }
+                    },
+                    "total": "Tu total"
+                },
+                "auth":{
+                    "button": "Iniciar Sesión",
+                    "button-clicked": "¡Token Emitido! (JWT, 8hrs de Vigencia)",
+                    "bottom-text": "Tu panel de administración está protegido por autenticación JWT. Nadie entra sin la contraseña."
+                },
+                "i18n":{
+                    "bottom-text": "✓ ngx-translate · Sin recarga de página · Persiste entre rutas"
+                },
+                "email":{
+                    "header": "De: noreply@yoursite.com · Para: cliente@email.com",
+                    "title": "✅ ¡Tu comisión ha sido confirmada!",
+                    "text": "¡Hola! Tu pedido ha sido recibido y ya está en cola. Te contactaremos en los próximos 2 días hábiles. Orden #",
+                    "button": "Ver estado del pedido →",
+                    "bottom-text": "✓ Enviado vía MailKit · Plantillas personalizadas · Disparadores automáticos"
+                }
+            }
         }
     }
 }
