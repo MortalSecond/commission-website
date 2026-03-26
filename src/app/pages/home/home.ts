@@ -6,10 +6,11 @@ import { PortfolioSection } from "./sections/portfolio-section/portfolio-section
 import { MethodologySection } from "./sections/methodology-section/methodology-section";
 import { DemoSection } from "./sections/demo-section/demo-section";
 import { ItWorkSection } from "./sections/it-work-section/it-work-section";
+import { CoverageSection } from "./sections/coverage-section/coverage-section";
 
 @Component({
   selector: 'app-home',
-  imports: [Navbar, TranslateModule, ServicesSection, PortfolioSection, MethodologySection, DemoSection, ItWorkSection],
+  imports: [Navbar, TranslateModule, ServicesSection, PortfolioSection, MethodologySection, DemoSection, ItWorkSection, CoverageSection],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

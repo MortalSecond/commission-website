@@ -267,7 +267,7 @@
         "it":{
             "eyebrow": "In-Person IT Work",
             "title": "I also show up with a screwdriver",
-            "subtitle": "Not everything is a website. Sometimes you need someone who can pull cable, fix a printer, or upgrade a computer that's been running on a spinning HDD since 2011. I cover a reasonable radius around Otumba de Gómez Farías. If you're outside the circle... we can still talk remotely.",
+            "subtitle": "Not everything is a website. Sometimes you need someone who can pull cable, fix a printer, or upgrade a computer that's been running on a spinning HDD since 2011. Based in Otumba, State of Mexico though, so mind the location.",
             "printers":{
                 "title": "Printers",
                 "subtitle": "Setup · maintenance · repair · drivers",
@@ -341,6 +341,11 @@
                 }
             },
             "note": "All in-person work is subject to my coverage zone, see the map below. Remote diagnosis and consulting is available anywhere."
+        },
+        "coverage":{
+            "eyebrow": "Where I Can Go",
+            "title": "I Drive, So There's A Limit",
+            "subtitle": "For in-person IT support, network installs, or on-site help. I cover a reasonable radius around Otumba de Gómez Farías. If you're outside the circle... we can still talk remotely."
         }
     }
 }

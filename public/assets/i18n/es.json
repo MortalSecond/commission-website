@@ -269,7 +269,7 @@
         "it":{
             "eyebrow": "Trabajo de TIC en Persona",
             "title": "También me presento con un desarmador",
-            "subtitle": "No todo es un sitio web. A veces necesitas a alguien que pueda tender cable, reparar una impresora, o actualizar una computadora que ha estado corriendo con un disco duro desde el 2011. Cubro una distancia razonable alrededor de Otumba de Gómez Farías. Si estás fuera del área... igual podemos hablar de forma remota.",
+            "subtitle": "No todo es un sitio web. A veces necesitas a alguien que pueda tender cable, reparar una impresora, o actualizar una computadora que ha estado corriendo con un disco duro desde el 2011. Ubicado en Otumba, Edomex, así que hay que tener en mente la distancia.",
             "printers":{
                 "title": "Impresoras",
                 "subtitle": "Instalación · mantenimiento · reparación · drivers",
@@ -343,6 +343,11 @@
                 }
             },
             "note": "Todo el trabajo en persona está sujeto a mi zona de cobertura, vease el mapa abajo. Diagnóstico remotos y consultas están disponibles desde cualquier lugar."
+        },
+        "coverage":{
+            "eyebrow": "Hasta A Donde Puedo Ir",
+            "title": "Yo Manejo, Asi Que Hay Limites",
+            "subtitle": "Para trabajos de TICS, instalaciones, o ayuda in-situ. Cubro una distancia razonable alrededor de Otumba de Gómez Farías. Si estás fuera del área... igual podemos hablar de forma remota."
         }
     }
 }
